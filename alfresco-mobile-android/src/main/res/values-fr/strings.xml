@@ -1,0 +1,925 @@
+﻿<?xml version="1.0" encoding="utf-8"?><!--
+  Copyright (C) 2005-2016 Alfresco Software Limited.
+
+  This file is part of Alfresco Mobile for Android.
+
+  Licensed under the Apache License, Version 2.0 (the "License");
+  you may not use this file except in compliance with the License.
+  You may obtain a copy of the License at
+
+    http://www.apache.org/licenses/LICENSE-2.0
+
+  Unless required by applicable law or agreed to in writing, software
+  distributed under the License is distributed on an "AS IS" BASIS,
+  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  See the License for the specific language governing permissions and
+  limitations under the License.
+-->
+<resources>
+
+    <string name="app_name">EisenVault</string>
+    <string name="empty_accounts">Aucun compte EisenVault disponible</string>
+
+    <!-- SIGN IN & CREATE ACCOUNT SCREEN -->
+    <string name="general_login_server_title">Saisissez le nom d\'hôte de votre serveur EisenVault</string>
+    <string name="general_login_server_hostname">Nom d\'hôte</string>
+    <string name="general_login_server_next">Continuer</string>
+    <string name="general_login_server_done">Terminé</string>
+    <string name="general_login_credentials_title">Saisissez vos identifiants</string>
+    <string name="general_login_credentials_username">Nom d\'utilisateur</string>
+    <string name="general_login_credentials_password">Mot de passe</string>
+    <string name="general_login_credentials_show_password">Afficher le mot de passe</string>
+    <string name="general_login_credentials_sign_in">activiti.alfresco.com</string>
+    <string name="general_login_credentials_or">ou</string>
+    <string name="general_login_credentials_connect">Activiti sur site</string>
+    <string name="general_login_signed_in_title">Connexion réussie !</string>
+    <string name="general_login_account_added">Compte ajouté !</string>
+    <string name="general_login_account_name">Donnez un nom à ce compte (facultatif)</string>
+    <string name="general_login_account_name_title">Dernière étape&#8230;</string>
+    <string name="prompt_url">URL</string>
+    <string name="general_login_check_server">Validation du serveur</string>
+
+    <string name="settings_userinfo">Compte</string>
+    <string name="settings_userinfo_account">Détails</string>
+    <string name="settings_userinfo_account_summary">Modifier les informations de l\'utilisateur et du serveur</string>
+    <string name="settings_userinfo_account_name">Nom</string>
+    <string name="settings_userinfo_account_name_summary">Modifier le nom du compte</string>
+    <string name="settings_account">Paramètres du compte</string>
+
+    <string name="home_signin">Connexion</string>
+    <string name="home_account">Je possède déjà un compte</string>
+    <string name="home_helper">Pour plus d\'informations sur EisenVault Mobile, consultez <a href="alfresco://view_help_guide/">notre guide</a> dans la section d\'aide</string>
+
+    <string name="account_wizard_alfresco_server">Serveur EisenVault</string>
+    <string name="account_wizard_or">Ou</string>
+    <string name="account_wizard_alfresco_cloud">EisenVault in the Cloud</string>
+
+    <string name="account">Compte</string>
+    <string name="action_add_account">Ajouter un compte</string>
+    <string name="account_username">Nom d\'utilisateur</string>
+    <string name="account_username_required_hint">Nom d\'utilisateur (requis)</string>
+    <string name="account_password">Mot de passe</string>
+    <string name="account_password_required_hint">Mot de passe (requis)</string>
+    <string name="account_hostname">Nom d\'hôte</string>
+    <string name="account_hostname_required_hint">Nom d\'hôte tel que www.exemple.com (requis)</string>
+    <string name="account_hostname_hint">www.example.com (requis)</string>
+    <string name="account_description">Description</string>
+    <string name="account_description_optional_hint">Description (facultatif). Par défaut, la valeur est EisenVault Server</string>
+    <string name="account_description_hint">Serveur EisenVault (facultatif)</string>
+    <string name="account_advanced">Avancé</string>
+    <string name="account_authentication">Authentification du compte</string>
+    <string name="account_https">HTTPS</string>
+    <string name="account_https_on_hint">HTTPS activé</string>
+    <string name="account_https_off_hint">HTTPS désactivé</string>
+    <string name="account_verify">Vérification des informations du compte EisenVault&#8230;</string>
+
+    <!-- ACCOUNTS -->
+    <string name="account_default_cloud">EisenVault in the Cloud</string>
+    <string name="account_default_onpremise">Serveur EisenVault</string>
+
+    <!-- WAITING SESSION -->
+    <string name="wait_title">Veuillez patienter</string>
+    <string name="wait_message">Contact avec votre serveur en cours&#8230;</string>
+
+    <!-- DETAILS -->
+    <string name="geolocation">Géolocalisation</string>
+    <string name="action_version">Versions</string>
+    <string name="document_tags_header">Tags</string>
+    <string name="document_version_header">Version</string>
+
+    <!-- DOWNLOAD -->
+    <string name="empty_download">Aucun fichier</string>
+
+    <!-- SEARCH -->
+    <string name="search_form_hint">Entrer un terme de recherche</string>
+
+    <!-- AlfrescoAccount WIZARD SCREEN STEP -->
+    <string name="optional">Facultatif</string>
+    <string name="required">Obligatoire</string>
+    <string name="field_required">(Obligatoire)</string>
+
+    <!-- LOCAL FIlE -->
+    <string name="action_rename">Renommer</string>
+
+    <!-- MAIN MENU -->
+    <string name="menu_browse_root">Entrepôt</string>
+    <string name="menu_browse_sites">Sites</string>
+    <string name="menu_browse_userhome">Mes fichiers</string>
+    <string name="menu_browse_shared">Fichiers partagés</string>
+    <string name="menu_browse_site_finder">Recherche</string>
+    <string name="menu_browse_all_sites">Tous les sites</string>
+    <string name="menu_browse_my_sites">Mes sites</string>
+    <string name="menu_browse_favorite_sites">Sites favoris</string>
+    <string name="menu_browse_activities">Activités</string>
+    <string name="menu_search">Rechercher</string>
+    <string name="menu_downloads">Téléchargements</string>
+    <string name="menu_local_files">Fichiers locaux</string>
+    <string name="menu_about">A propos</string>
+    <string name="menu_settings">Paramètres</string>
+    <string name="menu_accounts">Comptes</string>
+    <string name="menu_view">Vues</string>
+    <string name="menu_help">Aide</string>
+    <string name="menu_prefs">Paramètres</string>
+
+    <!-- UPLOAD -->
+    <string name="upload_title">Ajouter&#8230;</string>
+    <string name="upload_pick_document">Choisir le contenu&#8230;</string>
+
+    <!-- ACCOUNTS -->
+    <string name="accounts_manage">Comptes</string>
+    <string name="accounts_details">Détails</string>
+    <string name="browse_documents">Parcourir le contenu&#8230;</string>
+
+    <!-- PROPERTIES -->
+    <string name="details">Détails</string>
+    <string name="metadata">Propriétés</string>
+    <string name="preview">Aperçu</string>
+
+
+    <!-- NETWORKS -->
+    <string name="cloud_networks_empty">Aucun réseau disponible</string>
+    <string name="manage_accounts">Gérer les comptes&#8230;</string>
+    <string name="cloud_networks_switch">Changer de réseau&#8230;</string>
+
+
+    <!-- AUTHENTICATION -->
+    <string name="cloud_authentication">Authentification</string>
+
+    <!-- NETWORK -->
+
+    <!-- NOTIFICATION -->
+    <string name="upload">Ajouter </string>
+    <string name="upload_complete">Ajout terminé.</string>
+    <string name="upload_in_progress">Ajout en cours&#8230;</string>
+    <string name="update_complete">Mise à jour terminée.</string>
+    <string name="update_in_progress">Mise à jour en cours&#8230;</string>
+    <string name="error_unable_open_file_title">Impossible d\'ouvrir le fichier.</string>
+    <string name="error_unable_open_file">Le format du fichier n\'est pas pris en charge. Vous devez installer une application capable de le lire.</string>
+
+    <!-- OTHER -->
+    <string name="unlike">Ne plus aimer</string>
+    <string name="error_retrieve_likes">Le tag aimer/ne plus aimer pour ce contenu n\'a pas pu être récupéré.</string>
+    <string name="next">Suivant</string>
+    <string name="save">Enregistrer</string>
+    <string name="share_content">Partager le contenu avec&#8230;</string>
+
+    <!-- HELP -->
+    <string name="docs_prefix" translatable="false" />
+
+    <!-- About Message -->
+    <string name="version_number">Version</string>
+    <string name="buildnumber_version">Version : </string>
+    <string name="sdknumber_version">SDK : </string>
+    <string name="about_description">
+<![CDATA[
+<p>EisenVault Mobile se connecte aux serveurs EisenVault in the Cloud et EisenVault sur site (3.4 et supérieur) pour fournir un accès sécurisé à vos contenus en mode mobile.</p>
+
+<p>EisenVault Mobile se connecte à votre entrepôt EisenVault au moyen de vos identifiants EisenVault (par HTTP ou HTTPS), et gère les accès des utilisateurs en fonction de leurs autorisations.</p>
+]]>
+    </string>
+
+    <!-- Waiting Message -->
+    <string name="send_email">Partager une pièce jointe</string>
+    <string name="link_or_attach">Voulez-vous le partager sous forme de pièce jointe ou de lien ?</string>
+    <string name="full_attachment">Pièce jointe</string>
+    <string name="link_to_repo">Lien</string>
+    <string name="email_content"><![CDATA[<!DOCTYPE html><html><body>Envoyer avec <a href="http://play.google.com/store/apps/details?id=org.teisen.mobile.android.application">EisenVault Mobile</a></body></html>]]></string>
+
+    <!-- Delete -->
+    <plurals name="delete_items">
+        <item quantity="one">Voulez-vous vraiment supprimer l\'élément \"%s\" ?</item>
+        <item quantity="other">Voulez-vous vraiment supprimer \"%s\" éléments ?</item>
+    </plurals>
+
+    <string name="delete_description_data_protection">Protection des données active.\n\nSi vous supprimez ce compte, vos contenus reprendront leur état non protégé.\n\nSupprimer \"%s\" ?</string>
+    <string name="delete_in_progress">Suppression en cours&#8230;</string>
+    <string name="delete_complete">Suppression terminée</string>
+    <string name="delete_sucess">\"%s\" a été supprimé.</string>
+
+    <!-- Save Back -->
+    <string name="save_back_description">\"%s\" a été modifié. Voulez-vous ajouter cette nouvelle version ?</string>
+    <string name="update_sucess">\"%s\" a été mis à jour.</string>
+    <string name="no_voice_recorder">Vous n\'avez pas d\'enregistreur vocal sur cet appareil</string>
+    <string name="cannot_capture">Impossible de terminer la capture de ces informations</string>
+
+    <!-- Upload -->
+
+    <!-- Create Document -->
+    <string name="open_play_store">Ouvrir la boutique Google Play</string>
+    <string name="create_document">Créer&#8230;</string>
+    <string name="create_document_title">Créer&#8230;</string>
+    <string name="create_document_name_hint">Entrer le nom du fichier ici</string>
+    <string name="create_document_filename_error">Ce nom est déjà utilisé.</string>
+    <string name="create_document_editor_title">Terminer l\'action avec</string>
+    <string name="create_document_editor_not_available">Aucune application disponible</string>
+    <string name="create_document_editor_not_available_description">Vous ne disposez d\'aucune appli capable de créer ce type de fichier.</string>
+    <string name="preview_unavailable">Aperçu non disponible.</string>
+    <string name="sdinaccessible">Pour cette opération, la carte SD doit être accessible</string>
+    <string name="loginfirst">Veuillez d\'abord vous connecter à un compte EisenVault</string>
+
+    <!-- Comment -->
+    <string name="comment_add_hint">Ajouter vos commentaires ici&#8230;</string>
+
+    <!-- DATA PROTECTION -->
+    <string name="data_protection">Protection des données</string>
+    <string name="data_protection_blurb"><![CDATA[<p><b>Protection des données disponible.</b><br/> Voulez-vous l\'activer ? <p>  Cette opération va chiffrer tous les contenus EisenVault téléchargés pour chaque compte. Ces contenus ne pourront plus être lus par aucune application, sauf l\'application EisenVault. ]]></string>
+    <string name="decryption_failed">Échec du déchiffrement</string>
+    <string name="protect_question"><![CDATA[<p><b>Souhaitez-vous protéger tous les contenus EisenVault téléchargés maintenant ?</b><p>  Cette opération s\'appliquera à tous les contenus que vous avez téléchargés à partir de vos comptes EisenVault. Ces contenus ne pourront plus être lus par aucune application, sauf l\'application EisenVault.]]></string>
+    <string name="unprotect_question"><![CDATA[<p><b>Souhaitez-vous désactiver la protection sur tous les contenus EisenVault téléchargés maintenant ?</b><p>  Ce sera appliqué à tous les contenus téléchargés à partir de tous vos comptes EisenVault.]]></string>
+    <string name="decryption_title">Désactivation de la protection des données en cours&#8230;</string>
+    <string name="encryption_title">Activation de la protection des données en cours&#8230;</string>
+    <string name="encrypt_action">Chiffrer</string>
+    <string name="decrypt_action">Déchiffrer</string>
+
+    <!-- OPEN AS.. -->
+    <string name="open_as_title">Ouvrir dans&#8230;</string>
+    <string name="open_as_image">Image</string>
+    <string name="open_as_audio">Audio</string>
+    <string name="open_as_video">Vidéo</string>
+    <string name="open_as_txt">Document texte</string>
+
+    <!-- SITES ACTION -->
+    <string name="sites_empty_title">Aucun site trouvé</string>
+    <string name="action_join_site">Rejoindre</string>
+    <string name="action_join_request_site">Demander à rejoindre</string>
+    <string name="action_leave_site">Se désabonner</string>
+    <string name="action_favorite_site">Favori</string>
+    <string name="action_unfavorite_site">Supprimer des favoris</string>
+    <string name="action_join_site_validation">Vous êtes maintenant membre de \"%s\".</string>
+    <string name="action_leave_site_validation">Vous vous êtes désabonné de \"%s\".</string>
+    <string name="action_favorite_site_validation">\"%s\" fait maintenant partie des favoris.</string>
+    <string name="action_unfavorite_site_validation">\"%s\" ne figure plus dans les favoris.</string>
+    <string name="action_join_request_site_validation">Vous avez demandé à rejoindre \"%s\"</string>
+    <string name="joinsiterequest_list_title">Liste des demandes en attente</string>
+    <string name="joinsiterequest_cancel_description">Annuler votre demande à rejoindre le site \"%s\"</string>
+    <string name="action_cancel_join_site_request">Votre demande à rejoindre \"%s\" a été annulée.</string>
+    <string name="action_join_site_error">Un problème vous a empêché de rejoindre le site \"%s\".</string>
+    <string name="action_leave_site_error">Un problème vous a empêché de vous désabonner du site \"%s\".</string>
+    <string name="action_favorite_error">Un problème vous a empêché d\'inclure le site \"%s\" dans les favoris.</string>
+    <string name="action_unfavorite_site_error">Un problème vous a empêché de supprimer le site \"%s\" de vos favoris.</string>
+
+    <!-- IMPORT -->
+    <string name="import_document_title">Ajouter avec EisenVault Mobile</string>
+    <string name="import_document_name">Nom de fichier</string>
+    <string name="import_documents">Fichier</string>
+    <string name="import_account">Compte</string>
+    <string name="import_folder">Dossier Ajout</string>
+    <string name="import_unsupported_intent">EisenVault Mobile : impossible de récupérer les informations.</string>
+    <string name="action_upload">Ajouter</string>
+    <string name="action_import">Importer</string>
+
+    <!-- SSL -->
+    <string name="security_ssl_disable">La validation du certificat SSL a été désactivée.</string>
+    <string name="data_protection_unavailable">Protection des données non disponible (souscripteurs de l\'offre payante)</string>
+    <string name="data_protection_off">La protection des données est actuellement désactivée</string>
+    <string name="data_protection_on">La protection des données est actuellement activée</string>
+
+    <!-- PIN Code -->
+    <string name="passcode_title">Entrer le code d\'accès</string>
+    <string name="passcode_admin_title">Votre administrateur EisenVault vous demande de protéger par un code d\'accès EisenVault Mobile.</string>
+    <string name="passcode_enable_title">Activer le code d\'accès</string>
+    <string name="passcode_preference">Protection par code d\'accès</string>
+    <string name="passcode_enable">Activé</string>
+    <string name="passcode_disable">Désactivé</string>
+    <string name="passcode_change">Modifier le code d\'accès</string>
+    <string name="passcode_timeout">Expiration</string>
+    <string name="passcode_timeout_summary">{0,choice,0#Après 0 minute|1#Après 1 minute|1&lt;Après {0} minutes}</string>
+    <string name="passcode_erase_data">Effacer les données</string>
+    <string name="passcode_erase_data_summary">Effacer toutes les données EisenVault Mobile de cet appareil après 10 tentatives infructueuses de saisie du code d\'accès</string>
+    <string name="passcode_edit">Entrer votre nouveau code d\'accès</string>
+    <string name="passcode_confirmation">Entrer une nouvelle fois le code d\'accès</string>
+    <string name="passcode_error_confirmation">Votre code d\'accès ne correspond pas.</string>
+    <string name="passcode_unknown">Votre code d\'accès est incorrect.</string>
+    <string name="passcode_erase_data_complete">Toutes les données locales ont été supprimées.</string>
+    <string name="passcode_timeout_title">Expiration du délai de saisie du code d\'accès</string>
+    <string name="passcode_timeout_1min">1 minute</string>
+    <string name="passcode_timeout_2min">2 minutes</string>
+    <string name="passcode_timeout_5min">5 minutes</string>
+    <string name="passcode_timeout_10min">10 minutes</string>
+    <string name="passcode_timeout_30min">30 minutes</string>
+    <string name="passcode_timeout_60min">1 heure</string>
+
+    <string-array name="passcode_timeout_entries">
+        <item>@string/passcode_timeout_1min</item>
+        <item>@string/passcode_timeout_2min</item>
+        <item>@string/passcode_timeout_5min</item>
+        <item>@string/passcode_timeout_10min</item>
+        <item>@string/passcode_timeout_30min</item>
+        <item>@string/passcode_timeout_60min</item>
+    </string-array>
+    <string-array name="passcode_timeout_values">
+        <item>60000</item>
+        <item>120000</item>
+        <item>300000</item>
+        <item>600000</item>
+        <item>1800000</item>
+        <item>3600000</item>
+    </string-array>
+
+    <!-- Settings -->
+    <string name="settings">Paramètres</string>
+    <string name="settings_enterprise">Paramètres de la version Entreprise</string>
+    <string name="settings_privatefolder_summary">Avec la protection des données, les contenus téléchargés ne sont lisibles qu\'à partir des applications EisenVault. (réservé aux utilisateurs de la version Entreprise)</string>
+    <string name="settings_privatefolder_title">Protection des données</string>
+    <string name="settings_links">Liens</string>
+    <string name="settings_links_website">EisenVault</string>
+    <string name="settings_links_website_summary">Visiter le site Web officiel d\'EisenVault</string>
+    <string name="settings_links_website_url">http://www.alfresco.com/products/mobile</string>
+    <string name="settings_rating">Écrire un commentaire</string>
+    <string name="settings_rating_summary">Noter EisenVault Mobile sur Google Play</string>
+    <string name="settings_rating_packagename">org.teisen.mobile.android.application</string>
+    <string name="settings_rating_url">market://details?id=org.teisen.mobile.android.application</string>
+    <string name="settings_links_facebook">Aimer EisenVault sur Facebook</string>
+    <string name="settings_links_facebook_summary">Aimer sur Facebook</string>
+    <string name="settings_links_facebook_url">http://www.facebook.com/alfrescosoftware</string>
+    <string name="settings_favorite">Favoris</string>
+    <string name="settings_synced_content">Contenu synchronisé</string>
+    <string name="settings_favorite_sync">Activer la synchronisation</string>
+    <string name="settings_favorite_sync_summary">Activer la synchronisation pour \"%s\"</string>
+    <string name="settings_favorite_sync_data">Utilisation des données</string>
+    <string name="settings_favorite_sync_data_all">Utiliser les données cellulaires pour la synchronisation</string>
+    <string name="settings_custom_menu">Personnalisation</string>
+    <string name="settings_custom_menu_summary">Sélectionnez les onglets disponibles dans votre menu.</string>
+    <string name="settings_custom_menu_manage">Menu</string>
+    <string name="settings_custom_menu_disable">Votre administrateur EisenVault a désactivé cette fonctionnalité.</string>
+    <string name="settings.feedback">Vos données</string>
+    <string name="settings.feedback.diagnostic">Envoyer le diagnostic</string>
+    <string name="settings.feedback.diagnostic.summary">Aidez-nous à améliorer EisenVault Mobile en nous envoyant vos données de diagnostic technique qui resteront anonymes. Désactivez l\'option, le cas échéant.</string>
+    <string name="settings.feedback.email">Envoyer les données</string>
+
+    <!-- Multi Selection -->
+    <plurals name="selected_document">
+        <item quantity="zero">aucun fichier</item>
+        <item quantity="one">1 fichier</item>
+        <item quantity="other">%1$s fichiers</item>
+    </plurals>
+    <plurals name="selected_folders">
+        <item quantity="zero">aucun dossier</item>
+        <item quantity="one">1 dossier</item>
+        <item quantity="other">%1$s dossiers</item>
+    </plurals>
+    <plurals name="selected_search">
+        <item quantity="zero">aucune requête</item>
+        <item quantity="one">1 requête</item>
+        <item quantity="other">%1$s requêtes</item>
+    </plurals>
+
+    <!-- Favorites -->
+    <string name="menu_favorites_folder">Dossiers favoris</string>
+    <string name="menu_favorites">Favoris</string>
+    <string name="sync_mark">Marquer comme synchronisé</string>
+    <string name="synced_content">Contenu synchronisé</string>
+    <string name="empty_favorites">Aucun favori</string>
+    <string name="favorites_document">Favori</string>
+    <string name="error_retrieve_favorite">Impossible de récupérer les infos de favori de ce contenu.</string>
+    <string name="favorites_activate">Synchroniser le contenu pour \"%s\"</string>
+    <string name="favorites_activate_description">Voulez-vous conserver automatiquement vos contenus favoris en synchronisation avec cet appareil ?</string>
+    <string name="favorites_deactivate">Désactiver la synchronisation</string>
+    <string name="favorites_deactivate_description"><![CDATA[<p>Voulez-vous désactiver la synchronisation ?</p> Tous les contenus synchronisés seront supprimés de votre appareil.]]></string>
+    <string name="sync_error_title">Erreurs de synchronisation</string>
+    <string name="sync_error_node_unfavorited"><![CDATA[<p>Vous avez désynchronisé <b>%s</b> depuis que vous l\'avez édité. <br/> <b>Synchronisez</b> votre version modifiée sur le serveur ou <b>Enregistrez-la</b> sur votre dossier \"Téléchargements\". </p>]]></string>
+    <string name="sync_error_node_deleted"><![CDATA[<p> <b>%s</b> a été supprimé sur le serveur mais une copie a été enregistrée dans votre dossier \"Téléchargements\".</p>]]></string>
+    <string name="sync_error_no_permission"><![CDATA[<p> Vous n\'avez pas les droits d\'accès nécessaires pour ajouter votre version modifiée de <b>%s</b>. Vous pouvez l\'<b>Enregistrer</b> dans votre dossier \"Téléchargements\" ou la <b>Remplacer</b> avec la version du serveur qui annulera vos modifications.]]></string>
+    <string name="sync_error_node_local_modification">Erreurs de synchronisation</string>
+    <string name="sync_action">Synchroniser</string>
+    <string name="sync_override_action">Remplacer</string>
+    <string name="sync_save_action">Enregistrer</string>
+    <string name="sync_resolve_conflict">Résoudre le conflit</string>
+    <string name="sync_complete">Synchronisation terminée</string>
+    <string name="sync_in_progress">Synchronisation en cours&#8230;</string>
+    <string name="upload_await">En attente pour ajouter&#8230;</string>
+    <string name="download_await">En attente pour télécharger&#8230;</string>
+
+    <!-- Sync -->
+    <string name="sync_title">Contenu synchronisé</string>
+    <string name="sync">Synchroniser</string>
+    <string name="unsync">Désynchroniser</string>
+    <string name="sync_favorites">Favoris</string>
+    <string name="sync_empty_title">Gardez vos fichiers synchronisés</string>
+    <string name="sync_empty_description">Vous pouvez consulter et modifier les fichiers synchronisés hors connexion</string>
+
+    <string name="sync_info_one_title">Synchronisation optimisée !</string>
+    <string name="sync_info_one_first_text">Désormais, synchronisez différents fichiers sur différents appareils. Il suffit de choisir un fichier pour le synchroniser !</string>
+    <string name="sync_info_one_second_text">Consultez et modifiez les fichiers synchronisés hors connexion. Ils seront automatiquement synchronisés dans EisenVault dès la connexion suivante.</string>
+    <string name="sync_info_two_title">Et les fichiers ajoutés aux favoris ?</string>
+    <string name="sync_info_two_first_text">Ils sont tous également synchronisés !</string>
+    <string name="sync_info_two_second_text">Désormais, les fichiers ajoutés aux favoris apparaissent dans l\'onglet Favoris, mais vous devez les synchroniser pour l\'accès hors connexion.</string>
+    <string name="sync_info_third_title">Où se trouvent les fichiers synchronisés ?</string>
+    <string name="sync_info_third_first_text">Tous vos fichiers synchronisés sont accessibles dans la nouvelle vue Contenu synchronisé !</string>
+    <string name="sync_info_third_second_text">Contenu synchronisé</string>
+    <string name="sync_info_validation">J\'ai bien compris.</string>
+    <string name="sync_info_more_information">En savoir plus</string>
+    <string name="sync_info_skip">Ignorer</string>
+    <string name="sync_info_next">Suivant</string>
+
+
+    <plurals name="sync_complete_description">
+        <item quantity="zero">aucun contenu synchronisé</item>
+        <item quantity="one">1 fichier synchronisé</item>
+        <item quantity="other">%1$s fichiers synchronisés</item>
+    </plurals>
+    <plurals name="download_complete_description">
+        <item quantity="zero">aucun contenu téléchargé</item>
+        <item quantity="one">1 fichier disponible hors ligne</item>
+        <item quantity="other">%1$s fichiers disponibles hors ligne</item>
+    </plurals>
+    <plurals name="upload_complete_description">
+        <item quantity="zero">aucun contenu ajouté.</item>
+        <item quantity="one">1 élément ajouté.</item>
+        <item quantity="other">%1$s éléments ajoutés.</item>
+    </plurals>
+    <plurals name="update_complete_description">
+        <item quantity="zero">aucun contenu mis à jour.</item>
+        <item quantity="one">1 fichier mis à jour.</item>
+        <item quantity="other">%1$s fichiers mis à jour.</item>
+    </plurals>
+    <plurals name="batch_failed">
+        <item quantity="zero">aucun échec de transfert.</item>
+        <item quantity="one">1 transfert échoué.</item>
+        <item quantity="other">%1$s transferts échoués.</item>
+    </plurals>
+    <plurals name="batch_in_progress">
+        <item quantity="zero">aucun transfert en cours.</item>
+        <item quantity="one">1 transfert en cours.</item>
+        <item quantity="other">%1$s transferts en cours.</item>
+    </plurals>
+    <plurals name="download_in_progress">
+        <item quantity="zero">aucun téléchargement en cours.</item>
+        <item quantity="one">1 téléchargement en cours.</item>
+        <item quantity="other">%1$s téléchargements en cours.</item>
+    </plurals>
+
+    <string name="sync_warning">Avertissement de synchronisation</string>
+    <string name="sync_error">Erreur de synchronisation</string>
+    <string name="sync_warning_mobile_data"><![CDATA[<p> Vous êtes sur le point de synchroniser <b>%s</b> sur une connexion de données.</p> Voulez-vous continuer ?]]></string>
+    <string name="sync_error_storage"><![CDATA[<p> Vous essayez de synchroniser <b>%1$s</b>, seulement %2$s sont disponibles.</p> Vous devez libérer de l\'espace sur votre appareil ou supprimer des contenus de vos favoris.]]></string>
+    <string name="sync_warning_storage"><![CDATA[<p> Vous êtes sur le point de synchroniser <b>%1$s</b>, seulement %2$s sont disponibles sur votre appareil.</p> Voulez-vous continuer ?]]></string>
+    <string name="sync_document_not_available">Ce document n\'est pas disponible sur votre appareil.</string>
+
+    <!-- Handling duplicate name -->
+    <string name="error_duplicate_title">Nom en double</string>
+    <string name="error_duplicate_description"><![CDATA[<p>Il y a déjà un fichier téléchargé avec le même nom.</p> Voulez-vous remplacer le fichier existant ?]]></string>
+
+    <!-- Quick Action Folder -->
+    <string name="action_view_properties">Afficher les propriétés</string>
+    <string name="action_edit_properties">Modifier les propriétés</string>
+    <string name="like_in_progress">"J\'aime" en cours</string>
+    <string name="like_completed">J\'aime effectué</string>
+    <string name="like_complete">J\'aime terminé</string>
+    <string name="favorite">Favori</string>
+    <string name="unfavorite">Supprimer des favoris</string>
+
+    <!-- Operations Status -->
+    <string name="status_pending">En attente</string>
+    <string name="status_running">En cours</string>
+    <string name="status_paused">En pause</string>
+    <string name="status_successful">Réussi</string>
+    <string name="status_failed">Échec</string>
+    <string name="status_cancelled">Annulé</string>
+    <string name="session_loaded">Session prête</string>
+
+    <!-- Operations Type -->
+    <string name="notifications">Notifications</string>
+    <string name="operation_default">Notifications</string>
+    <string name="DownloadRequest">Télécharger</string>
+    <string name="CreateDocumentRequest">Créer du contenu</string>
+    <string name="UpdateContentRequest">Mettre à jour le contenu</string>
+    <string name="DeleteNodeRequest">Supprimer</string>
+    <string name="LikeNodeRequest">Aimer</string>
+    <string name="FavoriteNodeRequest">Favori</string>
+    <string name="CreateFolderRequest">Créer un dossier</string>
+    <string name="LoadSessionRequest">Charger une session</string>
+
+    <!-- Multi selection -->
+    <string name="empty">Rien</string>
+    <string name="operations_empty">Aucune opération</string>
+    <string name="select_all">Sélectionner tout</string>
+    <string name="cancel_all">Annuler tout</string>
+    <string name="dismiss_all">Effacer la liste</string>
+
+    <!-- Creation Folder -->
+    <string name="create_folder_in_progress">Création du dossier en cours</string>
+    <string name="textfile_populate_failed">Échec du chargement du texte dans l\'éditeur intégré</string>
+
+    <!-- FILE EXPLORER Menu -->
+    <string name="shortcut_alfresco_downloads">Téléchargements</string>
+    <string name="shortcut_library">Bibliothèque</string>
+    <string name="shortcut_library_images">Images</string>
+    <string name="shortcut_library_videos">Vidéos</string>
+    <string name="shortcut_library_audios">Musique</string>
+    <string name="shortcut_library_office">Bureautique</string>
+    <string name="shortcut_local">Raccourci appareil</string>
+    <string name="shortcut_local_downloads">Téléchargements appareil</string>
+    <string name="shortcut_local_sdcard">Carte SD</string>
+    <string name="shortcut_thirdparty_app">Applications</string>
+    <string name="shortcut_thirdparty_applications">Applications tierces</string>
+
+    <!-- FILE Editor Menu -->
+    <string name="file_editor_name">EisenVault : Éditeur de texte</string>
+    <string name="file_editor_error_open">Impossible d\'ouvrir ce fichier.</string>
+    <string name="file_editor_error_too_large">Ce fichier est trop volumineux pour être ouvert dans l\'Éditeur de texte EisenVault</string>
+    <string name="file_editor_error_speech">Votre appareil ne permet pas la reconnaissance vocale.</string>
+    <string name="file_editor_save_request">Le fichier a été modifié.</string>
+    <string name="file_editor_save_description"><![CDATA[Voulez-vous quitter sans enregistrer ? <br/> Toutes vos modifications non enregistrées seront perdues.]]></string>
+    <string name="file_editor_save">Enregistrer</string>
+    <string name="file_editor_discard">Annuler</string>
+    <string name="file_editor_save_confirmation">Le fichier a été enregistré.</string>
+    <string name="file_editor_encoding">Encodage</string>
+    <string name="file_editor_text_size">Taille du texte</string>
+    <string name="file_editor_speech_to_text">Reconnaissance vocale</string>
+
+    <!-- Simple -->
+    <string name="yes">Oui</string>
+    <string name="no">Non</string>
+
+    <!-- People -->
+    <string name="my_profile">Mon profil</string>
+    <string name="user_profile">Profil utilisateur</string>
+    <string name="work_at">%1$s chez %2$s</string>
+    <string name="jobTitle">Intitulé du poste</string>
+    <string name="location">Emplacement</string>
+    <string name="summary">Récapitulatif</string>
+    <string name="contactInformation">Informations de contact</string>
+    <string name="email">E-mail</string>
+    <string name="telephone">Téléphone</string>
+    <string name="mobile">Mobile</string>
+    <string name="skypeId">Skype</string>
+    <string name="instantMessagingId">Messagerie instantanée</string>
+    <string name="instantMessaging">Messagerie instantanée</string>
+    <string name="googleId">Nom d\'utilisateur Google</string>
+    <string name="company">Société</string>
+    <string name="companyDetails">Détails de la société</string>
+    <string name="companyName">Nom</string>
+    <string name="companyAdress">Adresse</string>
+    <string name="companyPostCode">Code postal</string>
+    <string name="companyTelephone">Téléphone</string>
+    <string name="companyFax">Fax</string>
+    <string name="companyEmail">E-mail</string>
+    <string name="call">Appel</string>
+    <string name="skype">Skype</string>
+    <string name="start_chat">Démarrer un chat</string>
+    <string name="start_call">Démarrer un appel</string>
+    <string name="start_video_call">Démarrer un appel vidéo</string>
+    <string name="search_person_hint">Rechercher par nom ou nom d\'utilisateur</string>
+    <string name="contact_add">Ajouter un contact</string>
+
+    <!-- MEMBERS -->
+    <string name="members">Liste des membres</string>
+    <string name="users">Liste des utilisateurs</string>
+    <string name="members_of">Membres de %s</string>
+
+    <!-- PERSON SEARCH -->
+    <string name="person_not_found">Aucun utilisateur trouvé</string>
+    <string name="person_search">Rechercher</string>
+
+    <!-- Activities -->
+    <string name="activity_profile">Profil de %s</string>
+
+    <!-- Workflow -->
+    <string name="empty_tasks">Aucune tâche</string>
+    <string name="empty_items">Aucune pièce jointe</string>
+    <string name="task_items">Pièce(s) jointe(s)</string>
+    <string name="workflow_start">Créer une tâche</string>
+    <string name="task_actions">Réponse</string>
+    <string name="tasks">Tâches</string>
+    <string name="task_workflow">Processus</string>
+
+    <!-- Workflow FILTERS -->
+    <string name="tasks_status">État</string>
+    <string name="tasks_active">Actif</string>
+    <string name="tasks_completed">Terminé</string>
+    <string name="tasks_due">Échéance</string>
+    <string name="tasks_due_today">Aujourd\'hui</string>
+    <string name="tasks_due_tomorrow">Demain</string>
+    <string name="tasks_due_week">Les 7 prochains jours</string>
+    <string name="tasks_due_over">En retard</string>
+    <string name="tasks_due_no_date">Aucune date</string>
+    <string name="tasks_priority">Priorité</string>
+    <string name="tasks_priority_low">Basse</string>
+    <string name="tasks_priority_medium">Moyenne</string>
+    <string name="tasks_priority_high">Elevée</string>
+    <string name="tasks_assignee">Personne assignée</string>
+    <string name="tasks_assignee_me">Moi</string>
+    <string name="tasks_assignee_all">Tout</string>
+    <string name="tasks_assignee_unassigned">Non assignée</string>
+
+    <!-- Tasks -->
+    <string name="task_filter_view">Afficher les tâches</string>
+    <string name="validate">Valider</string>
+    <string name="workflow_priority_low">Priorité basse</string>
+    <string name="workflow_priority_medium">Priorité moyenne</string>
+    <string name="workflow_priority_high">Priorité élevée</string>
+    <string name="task_user_approved"><![CDATA[%s <b>a approuvé le contenu</b>]]></string>
+    <string name="task_user_rejected"><![CDATA[%s <b>a rejeté le contenu</b>]]></string>
+    <string name="task_user_commented">et a commenté :</string>
+    <string name="task_user_completed"><![CDATA[%s <b>a terminé cette tâche</b>]]></string>
+    <string name="task_user_not_completed"><![CDATA[%s <b>n\'a pas encore terminé cette tâche</b>]]></string>
+    <string name="task_approve">Approuver</string>
+    <string name="task_reject">Rejeter</string>
+    <string name="task_response">Réponse</string>
+    <string name="done">Terminé</string>
+    <string name="task_completing">Fin de la tâche en cours</string>
+    <string name="task_reassign">Réassigner</string>
+    <string name="task_reassign_long">Réassigner cette tâche à&#8230;</string>
+    <string name="task_claim">Récupérer</string>
+    <string name="task_unclaim">Replacer dans le pot commun</string>
+    <string name="task_priority">Priorité</string>
+    <string name="task_type">Type de tâche</string>
+    <string name="task_initiator">Initiateur de la tâche</string>
+    <string name="task_dueat">Date d\'échéance</string>
+    <string name="tasks_history">Historique des tâches</string>
+
+    <!-- Tasks Filters -->
+    <string name="task_filter_active">Tâches actives</string>
+    <string name="task_filter_initiator">Tâches que j\'ai initiées</string>
+    <string name="task_filter_completed">Tâches terminées</string>
+    <string name="task_filter_high_priority">Tâches de priorité élevée</string>
+    <string name="task_filter_due_today">Tâches pour aujourd\'hui</string>
+    <string name="task_filter_overdue">Tâches en retard</string>
+    <string name="task_filter_assigned_me">Tâches assignées à Moi</string>
+    <string name="task_filter_custom">Mon filtre&#8230;</string>
+
+    <!-- Process Start -->
+    <string name="process_start_review">Envoyer pour révision</string>
+    <string name="process_choose_definition">Choisir le type de tâche</string>
+    <string name="process_create_task">Créer une tâche</string>
+    <string name="process_choose_attachments">Sélectionner les pièces jointes</string>
+    <string name="process_start_title">Démarrer le processus</string>
+    <string name="process_title">Titre</string>
+    <string name="process_title_hint">Nouveau titre de tâche (requis)</string>
+    <string name="process_due_on">A échéance le</string>
+    <string name="process_assignees">Personnes assignées</string>
+    <string name="process_diagram">Diagramme du processus</string>
+    <string name="task_review_document">Veuillez réviser %s</string>
+    <string name="task_review_documents">Veuillez réviser ce contenu</string>
+    <string name="task_assignees_plurals">{0,choice,0#Aucune personne assignée|1#1 personne assignée|1&lt;{0} personnes assignées}</string>
+    <string name="task_assignees">Personnes assignées</string>
+    <string name="task_assignees_selection">Sélectionner les personnes assignées&#8230;</string>
+    <string name="process_approvers_plurals">{0,choice,0#Aucun approbateur|1#1 sur 1 approbateur|1&lt;%s sur {0} approbateurs}</string>
+    <string name="task_attachments_plurals">{0,choice,0#Aucune pièce jointe|1#1 pièce jointe|1&lt;{0} pièces jointes}</string>
+    <string name="task_attachments_selection">Sélectionner les pièces jointes&#8230;</string>
+    <string name="task_attachments">Pièces jointes</string>
+    <string name="process_no_description">(aucun message)</string>
+
+    <string name="process_attachments">Pièces jointes</string>
+    <string name="process_no_attachments">Aucun contenu joint</string>
+    <string name="process_priority">Priorité</string>
+    <string name="process_notification">Notification par e-mail</string>
+    <string name="process_approvers">Approbateurs</string>
+    <string name="process_no_approvers">Aucun approbateur</string>
+    <string name="process_starting">Démarrer le processus</string>
+    <string name="task_create">Créer une tâche</string>
+    <string name="task_todo">À faire</string>
+    <string name="task_todo_description">Assigner une tâche à une personne</string>
+    <string name="task_review_approve">Réviser et approuver</string>
+    <string name="task_review_approve_description">Assigner une tâche à une ou plusieurs personnes pour revoir et approuver les contenus.</string>
+    <string name="task_delegate_in_progress">Réaffectation en cours&#8230;</string>
+    <string name="task_delegate_complete">Réaffectation terminée</string>
+    <string name="picker_assignees">Sélectionner les personnes assignées</string>
+    <string name="picker_due_date">Sélectionner une date d\'échéance</string>
+    <string name="picker_attachments">Sélectionner les pièces jointes</string>
+    <string name="action_remove_approvers">Supprimer un approbateur</string>
+    <string name="action_add_approvers">Ajouter un approbateur</string>
+
+
+    <!-- PROCESS NAME -->
+    <string name="process_adhoc">Workflow ad hoc</string>
+    <string name="process_parallel_review">Réviser et approuver en parallèle</string>
+    <string name="process_review">Réviser et approuver</string>
+    <string name="process_pooled_review">Réviser et approuver en mode partagé</string>
+
+    <!-- AGGREGATOR SEARCH -->
+    <string name="search">Rechercher</string>
+    <string name="search_person">Personnes</string>
+    <string name="search_documents">Fichiers</string>
+    <string name="search_folders">Dossiers</string>
+    <string name="search_site">Site</string>
+    <string name="search_advanced">Recherche avancée</string>
+
+    <!-- DOCUMENT PICKER -->
+    <string name="picker_document_title">Sélectionner les pièces jointes</string>
+    <string name="picker_assign_person">{0,choice,0#Assigner|1#Assigner 1 personne|1&lt;Assigner {0} personnes}</string>
+    <string name="picker_attach_document">{0,choice,0#Joindre|1#Joindre 1 fichier|1&lt;Joindre {0} fichiers}</string>
+
+    <!-- DISLAY VIEWS ITEMS -->
+    <string name="display_gallery">Afficher la galerie</string>
+
+    <!-- Metadata RESTRICTABLE -->
+    <string name="metadata_aspect_restrictable">Limité</string>
+    <string name="metadata_prop_offline_expires_after">Le hors-ligne expire après (heures)</string>
+
+    <!-- Advanced Search -->
+    <string name="search_title">Rechercher : %s</string>
+    <string name="clear">Effacer</string>
+    <string name="metadata_type">Type</string>
+    <string name="metadata_modified_by">Modifié par</string>
+    <string name="modified_by">Par</string>
+    <string name="metadata_modification_date">Dernière modification</string>
+    <string name="metadata_modification_date_from">De</string>
+    <string name="metadata_modification_date_to">À</string>
+    <string name="search_name">Nom ou nom d\'utilisateur</string>
+    <string name="mimetype_unknown">Inconnu</string>
+    <string name="mimetype_documents">Documents</string>
+    <string name="mimetype_presentations">Présentations</string>
+    <string name="mimetype_spreadsheets">Feuilles de calcul</string>
+    <string name="mimetype_images">Images</string>
+    <string name="mimetype_videos">Vidéos</string>
+    <string name="mimetype_music">Musique</string>
+    <string name="mimetype_text">Texte</string>
+    <string name="error_search_fields_empty">Remplir au moins un champ</string>
+    <string name="picker_user">Sélectionner une personne</string>
+    <string name="picker_date_from">Sélectionner une date de début</string>
+    <string name="picker_date_to">Sélectionner une date de fin</string>
+
+
+    <!-- Storage Access Framework -->
+    <string name="menu_browse_sync_content_folder">Contenu synchronisé</string>
+    <string name="menu_browse_favorites_folder">Dossier Favoris</string>
+    <string name="account_alfresco">EisenVault</string>
+    <string name="account_alfresco_cloud">EisenVault in the Cloud</string>
+    <string name="account_alfresco_onpremise">Serveur EisenVault</string>
+
+
+    <!-- Accessibility -->
+    <string name="mime_folder">Dossier</string>
+    <string name="mime_document">Document</string>
+    <string name="more_options_folder">Plus d\'options pour le dossier %s</string>
+    <string name="more_options_file">Plus d\'options pour le fichier %s</string>
+    <string name="more_options_favorite">Plus d\'options pour %s</string>
+    <string name="mime_site">Site</string>
+    <string name="more_options_site">Plus d\'options pour le site %s</string>
+    <string name="navigation_drawer_description">EisenVault : ouvrir l\'onglet de navigation</string>
+    <string name="metadata_modified">Modifié </string>
+    <string name="metadata_created_by">Créé par %s</string>
+    <string name="metadata_size">Taille </string>
+    <string name="contact_card">Ouvrir fiche de contact pour %s </string>
+    <string name="add_comment">Envoyer un commentaire</string>
+    <string name="advanced_search_hint">Bouton de recherche avancée</string>
+    <string name="add_menu">Ajouter à ce dossier</string>
+
+    <string name="multi_selection_enable">Multisélection</string>
+    <string name="create_content_type">Type</string>
+
+    <!-- CUSTOM FORMS -->
+    <string name="picker_selected_value">%s sélectionné</string>
+    <string name="picker_select_value">Ajouter %s&#8230;</string>
+    <string name="picker_multi_value_selected">{0,choice,0#No %2$s|1#1 %2$s|1&lt;%1$s %2$s}</string>
+
+    <!-- SHORTCUT & ACTIONS -->
+    <string name="select_folder">Sélectionner</string>
+    <string name="shortcut_actions_title">EisenVault – Créer</string>
+    <string name="shortcut_title">EisenVault – Raccourci</string>
+    <string name="shortcut_create">Créer un raccourci vers...</string>
+    <string name="shortcut_action_create">Définir votre action...</string>
+    <string name="action_associated">Actions associées</string>
+    <string name="action_photo">Prendre une photo</string>
+    <string name="action_text">Écrire du texte</string>
+    <string name="action_speech2text">Reconnaissance vocale</string>
+
+    <string name="mdm_managed">Géré par votre administrateur</string>
+    <string name="mdm_loading_configuration">Chargement de la configuration en cours...</string>
+    <string name="sign_in">Connexion</string>
+    <string name="error_mdm_loading_configuration"><![CDATA[<p><b>La configuration de votre application semble incorrecte.</b><br/> Si le problème persiste, contactez votre administrateur.</p> <br/> Erreur : %s]]></string>
+    <string name="discardbutton">Annuler</string>
+    <string name="filename_error_character">Nom de fichier non valide</string>
+    <string name="my_tasks">Mes tâches</string>
+    <string name="waiting_operations">Veuillez patienter</string>
+    <string name="shortcut_alfresco">EisenVault</string>
+    <string name="error_offline"><![CDATA[<p><b>Vous ne pouvez pas accéder à l\'aide d\'EisenVault Mobile car vous êtes hors ligne.</b><br/></p> Réessayez une fois que vous êtes en ligne.]]></string>
+    <string name="feature_disable">Cette fonctionnalité n\'est pas prise en charge ou a été désactivée sur votre appareil.</string>
+
+    <!-- ANDROID FOR WORK -->
+    <!-- AlfrescoUserName restriction -->
+    <string name="title_alfresco_username">Nom d\'utilisateur</string>
+    <string name="description_alfresco_username">Nom d\'utilisateur utilisé pour la connexion au serveur EisenVault</string>
+    <!-- AlfrescoRepositoryURL restriction -->
+    <string name="title_alfresco_repository_url">URL de l\'entrepôt EisenVault</string>
+    <string name="description_alfresco_repository_url">Serveur EisenVault auquel se connecter</string>
+    <!-- AlfrescoShareURL restriction -->
+    <string name="title_alfresco_share_url">URL EisenVault Share</string>
+    <string name="description_alfresco_share_url">Serveur EisenVault Share auquel se connecter</string>
+    <!-- AlfrescoDisplayName restriction -->
+    <string name="title_alfresco_display_name">Nom complet du compte</string>
+    <string name="description_alfresco_display_name">Nom du serveur associé à l\'entrepôt.</string>
+    <string name="default_alfresco_display_name">Serveur EisenVault</string>
+
+
+    <!-- Empty -->
+    <string name="nodebrowser_empty_ro_title">Ce dossier est vide</string>
+    <string name="nodebrowser_empty_rw_title">@string/nodebrowser_empty_ro_title</string>
+    <string name="nodebrowser_empty_rw_description">Utilisez + pour ajouter des fichiers à ce dossier.</string>
+    <string name="favorites_empty_title">Aucun favori trouvé</string>
+    <string name="favorites_empty_description">Vous pouvez ajouter des fichiers et des dossiers à vos favoris pour y accéder rapidement.</string>
+    <string name="sites_my_empty_title">Vous n\'avez rejoint aucun site pour l\'instant</string>
+    <string name="sites_my_empty_description">Utilisez la Recherche de sites pour identifier les sites que vous pouvez rejoindre.</string>
+    <string name="sites_favorites_empty_title">Aucun favori trouvé</string>
+    <string name="sites_favorites_empty_description">Vous pouvez ajouter des sites à vos favoris pour y accéder rapidement.</string>
+    <string name="sites_search_empty_title">Aucun site trouvé</string>
+    <string name="sites_search_empty_description">Essayez d\'utiliser un terme de recherche différent.</string>
+    <string name="tasks_list_empty_title">Vous n\'avez aucune tâche pour l\'instant</string>
+    <string name="tasks_list_empty_description">Créer une tâche pour vous-même ou l\'assigner à un tiers.</string>
+    <string name="activities_list_empty_title">Aucune activité à afficher</string>
+    <string name="activities_list_empty_description">Rejoindre un site EisenVault pour afficher les activités de vos collègues.</string>
+    <string name="node_search_empty_title">Aucun résultat trouvé</string>
+    <string name="node_search_empty_description">Essayez d\'utiliser un terme de recherche différent.</string>
+    <string name="people_search_empty_title">Aucun utilisateur trouvé</string>
+    <string name="people_search_empty_description">Essayez d\'utiliser un terme de recherche différent.</string>
+
+
+    <string name="empty_site">Aucun site disponible</string>
+    <string name="empty_version">Aucun historique des versions disponible</string>
+    <string name="empty_session">Aucune session disponible</string>
+    <string name="empty_actvity">Aucune activité trouvée</string>
+    <string name="empty_tag">Aucun tag trouvé</string>
+    <string name="empty_comment">Aucun commentaire trouvé</string>
+    <string name="empty_search">Aucun fichier trouvé</string>
+    <string name="action_sign_in_short">Connexion</string>
+    <string name="node.details.file.not.found">Aucun fichier trouvé</string>
+    <string name="node.browser.folder.not.found">Aucun dossier trouvé</string>
+    <string name="user.details.user.not.found">Aucun utilisateur trouvé</string>
+    <string name="public.url.wrong.format">Lien non reconnu. Contactez votre administrateur EisenVault</string>
+    <string name="public.url.tasks.missing.filter">Informations de filtre manquantes. Contactez votre administrateur EisenVault</string>
+    <string name="public.url.file.missing.id">Informations d\'ID manquantes. Contactez votre administrateur EisenVault</string>
+    <string name="public.url.noderef.format">Informations NodeRef incorrectes. Contactez votre administrateur EisenVault</string>
+
+
+    <!-- ACCOUNTS SELECTION -->
+    <string name="accounts.title.select">Sélectionner un compte</string>
+    <string name="accounts.not.found">Aucun compte trouvé. Ajoutez-en un.</string>
+
+
+    <!-- DATA PROTECTION -->
+    <string name="general_login_data_protection_title">Protection des données disponible</string>
+    <string name="general_login_data_protection_description">Cette opération va chiffrer tous les contenus EisenVault téléchargés pour chaque compte. Ces contenus ne pourront plus être lus par aucune application, sauf l\'application EisenVault.</string>
+
+    <!-- ERRORS -->
+    <string name="error_invalid_email">Cette adresse e-mail n\'est pas valide</string>
+    <string name="error_invalid_password">Ce mot de passe est trop court</string>
+    <string name="error_incorrect_password">Ce mot de passe est incorrect</string>
+    <string name="error_field_required">Ce champ doit être renseigné</string>
+    <string name="error_invalid_url">Ce nom d\'hôte n\'est pas valide</string>
+
+
+    <!-- CONFIG VALUES -->
+    <string name="config_view_config_editor">Displays Menu Configuration Editor.</string>
+    <string name="config_view_activities">Displays user\'s activities.</string>
+    <string name="config_view_people">Displays a list of users.</string>
+    <string name="config_view_person_profile">Displays person profile details.</string>
+    <string name="config_view_local">Displays a list of most important local folder available inside the device.</string>
+    <string name="config_view_local_files">Displays files local to the client.</string>
+    <string name="config_view_search">Displays a search view.</string>
+    <string name="config_view_search_advanced">Displays an advanced search view.</string>
+    <string name="config_view_site_browser">Displays a sites view.</string>
+    <string name="config_view_sites">Displays a list of sites.</string>
+    <string name="config_view_document_details">Displays the details of a repository document.</string>
+    <string name="config_view_folder_details">Displays the details of a repository folder or document.</string>
+    <string name="config_view_repository">Displays a folder from the repository.</string>
+    <string name="config_view_repository_search">Displays a list of nodes based on a query.</string>
+    <string name="config_view_tasks">Displays a list of tasks.</string>
+    <string name="config_view_favorites">Displays list of favorite files and folders.</string>
+    <string name="config_view_sync">Displays list of synced content.</string>
+
+    <string name="config_view_activities_username">Displays activities stream for a specific user.</string>
+    <string name="config_view_activities_siteshortname">Displays activities stream for a specific site.</string>
+    <string name="config_view_people_keywords">Displays a search view for users with the matching keywords.</string>
+    <string name="config_view_people_siteshortname">Displays list of members for a specific site.</string>
+    <string name="config_view_people_path">Absolute path to the specified folder.</string>
+    <string name="config_view_people_shortcut">Display Up path selector.</string>
+    <string name="config_view_person_profile_username">Displays the profile for the specified username.</string>
+    <string name="config_view_advanced_search_type">Values: person|document|folder.</string>
+    <string name="config_view_sites_show">Values: favorites|my|all|finder.</string>
+    <string name="config_view_sites_keywords">keywords to search</string>
+    <string name="config_view_doc_details_path">Absolute path to the specified document</string>
+    <string name="config_view_doc_details_noderef">NodeRef associated to a document</string>
+    <string name="config_view_folder_details_path">Absolute path to the specified folder</string>
+    <string name="config_view_folder_details_noderef">NodeRef associated to a folder</string>
+    <string name="config_view_repository_path">Displays a folder defined by its absolute path</string>
+    <string name="config_view_repository_noderef">Displays a folder retrieved by its nodeRef</string>
+    <string name="config_view_repository_siteShortName">Displays the document library folder associated to the specified site</string>
+    <string name="config_view_repository_folderTypeId">Displays the system folder shared|userhome</string>
+    <string name="config_view_repository_search_keywords">keywords to search</string>
+    <string name="config_view_repository_search_isExact">Requires : keywords</string>
+    <string name="config_view_repository_search_fullText">Requires : keywords</string>
+    <string name="config_view_repository_search_searchFolderOnly">Requires : keywords</string>
+    <string name="config_view_repository_search_statement">CMIS query</string>
+
+    <!-- FORM -->
+    <!-- ################################################################################## -->
+    <string name="form_message_title">Formulaire</string>
+    <string name="form_default_outcome_complete">Terminer</string>
+    <string name="form_default_outcome_start_process">Démarrer le processus</string>
+    <string name="form_message_empty">(Aucun)</string>
+    <string name="form_error_message_required">%s requis</string>
+    <string name="form_message_validation">Certains champs sont obligatoires.</string>
+    <string name="form_message_unsupported_field_summary">Rendu non pris en charge</string>
+    <string name="form_message_unsupported_field">Ce type de champ de saisie n\'est pas pris en charge sur les appareils mobiles</string>
+    <string name="form_message_unsupported_title">Formulaire non pris en charge</string>
+    <string name="form_message_unsupported_description"><![CDATA[<p>Ce formulaire contient un ou plusieurs champs obligatoires non pris en charge actuellement sur les appareils mobiles.</p> Veuillez utiliser l\'application Web pour effectuer cette étape.]]></string>
+    <string name="form_message_link_error_title">Lien non pris en charge</string>
+    <string name="form_message_link_error"><![CDATA[<p>Ce contenu ne provient pas d\'une source de contenu prise en charge.</p> Veuillez en sélectionner un autre.]]></string>
+
+
+    <string name="open_in_alfresco_editor">Ouvrir dans l\'Éditeur de texte EisenVault</string>
+
+
+</resources>

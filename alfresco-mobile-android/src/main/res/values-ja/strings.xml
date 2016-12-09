@@ -1,0 +1,925 @@
+﻿<?xml version="1.0" encoding="utf-8"?><!--
+  Copyright (C) 2005-2016 Alfresco Software Limited.
+
+  This file is part of Alfresco Mobile for Android.
+
+  Licensed under the Apache License, Version 2.0 (the "License");
+  you may not use this file except in compliance with the License.
+  You may obtain a copy of the License at
+
+    http://www.apache.org/licenses/LICENSE-2.0
+
+  Unless required by applicable law or agreed to in writing, software
+  distributed under the License is distributed on an "AS IS" BASIS,
+  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  See the License for the specific language governing permissions and
+  limitations under the License.
+-->
+<resources>
+
+    <string name="app_name">EisenVault</string>
+    <string name="empty_accounts">使用できる EisenVault アカウントがありません</string>
+
+    <!-- SIGN IN & CREATE ACCOUNT SCREEN -->
+    <string name="general_login_server_title">EisenVault サーバーのホスト名を入力してください</string>
+    <string name="general_login_server_hostname">ホスト名</string>
+    <string name="general_login_server_next">続行</string>
+    <string name="general_login_server_done">完了</string>
+    <string name="general_login_credentials_title">あなたの資格情報を入力してください</string>
+    <string name="general_login_credentials_username">ユーザー名</string>
+    <string name="general_login_credentials_password">パスワード</string>
+    <string name="general_login_credentials_show_password">パスワードを表示</string>
+    <string name="general_login_credentials_sign_in">activiti.alfresco.com</string>
+    <string name="general_login_credentials_or">または</string>
+    <string name="general_login_credentials_connect">オンプレミスの Activiti</string>
+    <string name="general_login_signed_in_title">サインインしました。</string>
+    <string name="general_login_account_added">アカウントが追加されました</string>
+    <string name="general_login_account_name">このアカウントに名前を付けます (任意)</string>
+    <string name="general_login_account_name_title">最後に&#8230;</string>
+    <string name="prompt_url">URL</string>
+    <string name="general_login_check_server">サーバーのバリデーション</string>
+
+    <string name="settings_userinfo">アカウント</string>
+    <string name="settings_userinfo_account">詳細</string>
+    <string name="settings_userinfo_account_summary">ユーザーとサーバーの情報を編集できます</string>
+    <string name="settings_userinfo_account_name">名前</string>
+    <string name="settings_userinfo_account_name_summary">アカウント名を編集できます</string>
+    <string name="settings_account">アカウントの設定</string>
+
+    <string name="home_signin">サインイン</string>
+    <string name="home_account">アカウントをお持ちの方</string>
+    <string name="home_helper">EisenVault Mobile の詳細については、[ヘルプ] にある <a href="alfresco://view_help_guide/">説明を</a> ご覧ください</string>
+
+    <string name="account_wizard_alfresco_server">EisenVault サーバー</string>
+    <string name="account_wizard_or">または</string>
+    <string name="account_wizard_alfresco_cloud">EisenVault in the Cloud</string>
+
+    <string name="account">アカウント</string>
+    <string name="action_add_account">アカウントを追加してください</string>
+    <string name="account_username">ユーザー名</string>
+    <string name="account_username_required_hint">ユーザー名 (必須)</string>
+    <string name="account_password">パスワード</string>
+    <string name="account_password_required_hint">パスワード (必須)</string>
+    <string name="account_hostname">ホスト名</string>
+    <string name="account_hostname_required_hint">ホスト名は、www.example.com のような形式で入力してください (必須です)。</string>
+    <string name="account_hostname_hint">www.example.com (必須)</string>
+    <string name="account_description">説明</string>
+    <string name="account_description_optional_hint">説明を入力します (任意です)。 デフォルトは EisenVault サーバーです</string>
+    <string name="account_description_hint">EisenVault サーバー (任意)</string>
+    <string name="account_advanced">詳細設定</string>
+    <string name="account_authentication">アカウントの認証方法</string>
+    <string name="account_https">HTTPS</string>
+    <string name="account_https_on_hint">HTTPS オン</string>
+    <string name="account_https_off_hint">HTTPS オフ</string>
+    <string name="account_verify">EisenVault アカウント情報を確認しています&#8230;</string>
+
+    <!-- ACCOUNTS -->
+    <string name="account_default_cloud">EisenVault in the Cloud</string>
+    <string name="account_default_onpremise">EisenVault サーバー</string>
+
+    <!-- WAITING SESSION -->
+    <string name="wait_title">お待ちください</string>
+    <string name="wait_message">サーバーに接続しています&#8230;</string>
+
+    <!-- DETAILS -->
+    <string name="geolocation">位置情報</string>
+    <string name="action_version">バージョン</string>
+    <string name="document_tags_header">タグ</string>
+    <string name="document_version_header">バージョン</string>
+
+    <!-- DOWNLOAD -->
+    <string name="empty_download">ファイルがありません</string>
+
+    <!-- SEARCH -->
+    <string name="search_form_hint">検索キーワードを入力してください</string>
+
+    <!-- AlfrescoAccount WIZARD SCREEN STEP -->
+    <string name="optional">任意</string>
+    <string name="required">必須</string>
+    <string name="field_required">(必須)</string>
+
+    <!-- LOCAL FIlE -->
+    <string name="action_rename">名前の変更</string>
+
+    <!-- MAIN MENU -->
+    <string name="menu_browse_root">リポジトリ</string>
+    <string name="menu_browse_sites">サイト</string>
+    <string name="menu_browse_userhome">あなたのファイル</string>
+    <string name="menu_browse_shared">共有ファイル</string>
+    <string name="menu_browse_site_finder">サイトの検索</string>
+    <string name="menu_browse_all_sites">すべてのサイト</string>
+    <string name="menu_browse_my_sites">あなたのサイト</string>
+    <string name="menu_browse_favorite_sites">お気に入りのサイト</string>
+    <string name="menu_browse_activities">アクティビティ</string>
+    <string name="menu_search">検索</string>
+    <string name="menu_downloads">ダウンロード</string>
+    <string name="menu_local_files">ローカルファイル</string>
+    <string name="menu_about">バージョン情報</string>
+    <string name="menu_settings">設定</string>
+    <string name="menu_accounts">アカウント</string>
+    <string name="menu_view">表示</string>
+    <string name="menu_help">ヘルプ</string>
+    <string name="menu_prefs">設定</string>
+
+    <!-- UPLOAD -->
+    <string name="upload_title">アップロード&#8230;</string>
+    <string name="upload_pick_document">コンテンツの選択&#8230;</string>
+
+    <!-- ACCOUNTS -->
+    <string name="accounts_manage">アカウント</string>
+    <string name="accounts_details">詳細</string>
+    <string name="browse_documents">コンテンツの閲覧</string>
+
+    <!-- PROPERTIES -->
+    <string name="details">詳細</string>
+    <string name="metadata">プロパティ</string>
+    <string name="preview">プレビュー</string>
+
+
+    <!-- NETWORKS -->
+    <string name="cloud_networks_empty">使用可能なネットワークはありません</string>
+    <string name="manage_accounts">アカウントの管理&#8230;</string>
+    <string name="cloud_networks_switch">ネットワークの切り替え&#8230;</string>
+
+
+    <!-- AUTHENTICATION -->
+    <string name="cloud_authentication">認証</string>
+
+    <!-- NETWORK -->
+
+    <!-- NOTIFICATION -->
+    <string name="upload">アップロード </string>
+    <string name="upload_complete">アップロードが完了しました。</string>
+    <string name="upload_in_progress">アップロードしています&#8230;</string>
+    <string name="update_complete">更新が完了しました。</string>
+    <string name="update_in_progress">更新しています&#8230;</string>
+    <string name="error_unable_open_file_title">ファイルを開けませんでした。</string>
+    <string name="error_unable_open_file">このファイル形式は使用できません。 このファイルを読み取ることができるアプリをインストールしてください。</string>
+
+    <!-- OTHER -->
+    <string name="unlike">[いいね!] の削除</string>
+    <string name="error_retrieve_likes">このコンテンツの[いいね!]/[[いいね!] の削除] タグを取得できませんでした。</string>
+    <string name="next">次へ</string>
+    <string name="save">保存</string>
+    <string name="share_content">コンテンツの共有&#8230;</string>
+
+    <!-- HELP -->
+    <string name="docs_prefix" translatable="false" />
+
+    <!-- About Message -->
+    <string name="version_number">バージョン</string>
+    <string name="buildnumber_version">バージョン: </string>
+    <string name="sdknumber_version">SDK: </string>
+    <string name="about_description">
+<![CDATA[
+<p>EisenVault Mobile は EisenVault in the Cloud とオンプレミスの EisenVault サーバー (3.4 以上) に接続して、社内のコンテンツに外出先から安全にアクセスできるようにします。</p>
+
+<p>EisenVault Mobile は、EisenVault のログイン資格情報を使用して (HTTP または HTTPS 経由で) EisenVault のリポジトリに接続し、権限に基づいてユーザーのアクセスを管理します。</p>
+]]>
+    </string>
+
+    <!-- Waiting Message -->
+    <string name="send_email">添付ファイルの共有</string>
+    <string name="link_or_attach">これを添付ファイル、またはクリック可能なリンクとして共有しますか?</string>
+    <string name="full_attachment">添付ファイル</string>
+    <string name="link_to_repo">クリック可能なリンク</string>
+    <string name="email_content"><![CDATA[<!DOCTYPE html><html><body><a href="http://play.google.com/store/apps/details?id=org.teisen.mobile.android.application">EisenVault Mobile </a>で送信</body></html>]]></string>
+
+    <!-- Delete -->
+    <plurals name="delete_items">
+        <item quantity="one">\"%s\" を削除しますか?</item>
+        <item quantity="other">\"%s\" 個のアイテムを削除しますか？</item>
+    </plurals>
+
+    <string name="delete_description_data_protection">データ保護が有効です。\n\n このアカウントを削除すると、コンテンツは保護されていない状態に戻ります。\n\n\"%s\"を削除しますか?</string>
+    <string name="delete_in_progress">削除しています&#8230;</string>
+    <string name="delete_complete">削除が完了しました</string>
+    <string name="delete_sucess">\"%s\" は正常に削除されました。</string>
+
+    <!-- Save Back -->
+    <string name="save_back_description">\"%s\" は変更されています。 この新しいバージョンをアップロードしますか?</string>
+    <string name="update_sucess">\"%s\" の更新が完了しました。</string>
+    <string name="no_voice_recorder">このデバイスにはボイスレコーダーはありません</string>
+    <string name="cannot_capture">この情報を取得できません</string>
+
+    <!-- Upload -->
+
+    <!-- Create Document -->
+    <string name="open_play_store">Google Play Store を開く</string>
+    <string name="create_document">作成&#8230;</string>
+    <string name="create_document_title">作成&#8230;</string>
+    <string name="create_document_name_hint">ここにファイル名を入力してください</string>
+    <string name="create_document_filename_error">この名前は既に使用されています。</string>
+    <string name="create_document_editor_title">以下を使用したアクションが完了しました</string>
+    <string name="create_document_editor_not_available">使用可能なアプリケーションがありません</string>
+    <string name="create_document_editor_not_available_description">この種類のファイルを作成するアプリがありません。</string>
+    <string name="preview_unavailable">プレビューは使用できません。</string>
+    <string name="sdinaccessible">この操作を行うには、SD カードがアクセス可能な状態でなければなりません。</string>
+    <string name="loginfirst">まず EisenVault アカウントにログインしてください</string>
+
+    <!-- Comment -->
+    <string name="comment_add_hint">ここにコメントを追加してください&#8230;</string>
+
+    <!-- DATA PROTECTION -->
+    <string name="data_protection">データ保護</string>
+    <string name="data_protection_blurb"><![CDATA[<p><b>データ保護は使用可能です。</b><br/> 有効にしますか? <p>  有効にすると、各アカウントでダウンロードしたすべての EisenVault コンテンツが暗号化され、EisenVault 以外のアプリでは読み取ることができなくなります。 ]]></string>
+    <string name="decryption_failed">暗号の解除が失敗しました</string>
+    <string name="protect_question"><![CDATA[<p><b>ダウンロードしたすべての EisenVault コンテンツを今すぐ保護しますか?</b><p>  保護することを選択すると、各アカウントでダウンロードしたすべての EisenVault コンテンツが暗号化され、EisenVault 以外のアプリでは読み取ることができなくなります。]]></string>
+    <string name="unprotect_question"><![CDATA[<p><b>ダウンロードしたすべての EisenVault コンテンツの保護を今すぐ解除しますか?</b><p>  解除することを選択すると、各 EisenVault アカウントからダウンロードしたすべてのコンテンツの保護が解除されます。]]></string>
+    <string name="decryption_title">データ保護を無効にしています&#8230;</string>
+    <string name="encryption_title">データ保護を有効にしています&#8230;</string>
+    <string name="encrypt_action">暗号化</string>
+    <string name="decrypt_action">暗号解除</string>
+
+    <!-- OPEN AS.. -->
+    <string name="open_as_title">変換して開く&#8230;</string>
+    <string name="open_as_image">画像</string>
+    <string name="open_as_audio">オーディオ</string>
+    <string name="open_as_video">動画</string>
+    <string name="open_as_txt">テキスト文書</string>
+
+    <!-- SITES ACTION -->
+    <string name="sites_empty_title">サイトが見つかりません</string>
+    <string name="action_join_site">参加</string>
+    <string name="action_join_request_site">参加リクエストの送信</string>
+    <string name="action_leave_site">退会</string>
+    <string name="action_favorite_site">お気に入り</string>
+    <string name="action_unfavorite_site">お気に入りの解除</string>
+    <string name="action_join_site_validation">\"%s\" のメンバーになりました。</string>
+    <string name="action_leave_site_validation">\"%s\" を退会しました。</string>
+    <string name="action_favorite_site_validation">\"%s\" がお気に入りに登録されました。</string>
+    <string name="action_unfavorite_site_validation">\"%s\"はお気に入りから解除されました。</string>
+    <string name="action_join_request_site_validation">\"%s\" への参加をリクエストしました。</string>
+    <string name="joinsiterequest_list_title">保留中リクエストのリスト</string>
+    <string name="joinsiterequest_cancel_description">サイト %sへの参加リクエストをキャンセルします。</string>
+    <string name="action_cancel_join_site_request">\"%s\" への参加リクエストはキャンセルされています。</string>
+    <string name="action_join_site_error">問題が発生したため、サイト \"%s\" に参加できませんでした。</string>
+    <string name="action_leave_site_error">問題が発生したため、サイト \"%s\" を退会できませんでした。</string>
+    <string name="action_favorite_error">問題が発生したため、サイト \"%s\" をお気に入りに登録できませんでした。</string>
+    <string name="action_unfavorite_site_error">問題が発生したため、サイト \"%s\" をお気に入りから解除できませんでした</string>
+
+    <!-- IMPORT -->
+    <string name="import_document_title">EisenVault Mobile でアップロード</string>
+    <string name="import_document_name">ファイル名</string>
+    <string name="import_documents">ファイル</string>
+    <string name="import_account">アカウント</string>
+    <string name="import_folder">フォルダのアップロード</string>
+    <string name="import_unsupported_intent">EisenVault Mobile: 情報を取得できません。</string>
+    <string name="action_upload">アップロード</string>
+    <string name="action_import">インポート</string>
+
+    <!-- SSL -->
+    <string name="security_ssl_disable">SSL 証明書の検証が無効になっています。</string>
+    <string name="data_protection_unavailable">データ保護は使用できません (有料アカウント所持者のみ)</string>
+    <string name="data_protection_off">データ保護は現在オフになっています"</string>
+    <string name="data_protection_on">データ保護は現在オンになっています"</string>
+
+    <!-- PIN Code -->
+    <string name="passcode_title">パスコードの入力</string>
+    <string name="passcode_admin_title">EisenVault 管理者が、EisenVault Mobile をパスコードで保護するように要求しています。</string>
+    <string name="passcode_enable_title">パスコードの有効化</string>
+    <string name="passcode_preference">パスコード保護</string>
+    <string name="passcode_enable">有効</string>
+    <string name="passcode_disable">無効</string>
+    <string name="passcode_change">パスコードの変更</string>
+    <string name="passcode_timeout">期限</string>
+    <string name="passcode_timeout_summary">{0,choice,0# 0 分後|1#1 分後|1&lt;{0} 分後}</string>
+    <string name="passcode_erase_data">データの消去</string>
+    <string name="passcode_erase_data_summary">パスコードの入力を 10 回間違えると、このデバイスから EisenVault Mobile のデータがすべて消去されます。</string>
+    <string name="passcode_edit">新しいパスコードを入力してください</string>
+    <string name="passcode_confirmation">パスコードを再入力してください</string>
+    <string name="passcode_error_confirmation">パスコードが一致しません。</string>
+    <string name="passcode_unknown">パスコードが間違っています。</string>
+    <string name="passcode_erase_data_complete">ローカルデータがすべて削除されました。</string>
+    <string name="passcode_timeout_title">パスコードのタイムアウト</string>
+    <string name="passcode_timeout_1min">1 分</string>
+    <string name="passcode_timeout_2min">2 分</string>
+    <string name="passcode_timeout_5min">5 分</string>
+    <string name="passcode_timeout_10min">10 分</string>
+    <string name="passcode_timeout_30min">30 分</string>
+    <string name="passcode_timeout_60min">1 時間</string>
+
+    <string-array name="passcode_timeout_entries">
+        <item>@string/passcode_timeout_1min</item>
+        <item>@string/passcode_timeout_2min</item>
+        <item>@string/passcode_timeout_5min</item>
+        <item>@string/passcode_timeout_10min</item>
+        <item>@string/passcode_timeout_30min</item>
+        <item>@string/passcode_timeout_60min</item>
+    </string-array>
+    <string-array name="passcode_timeout_values">
+        <item>60000</item>
+        <item>120000</item>
+        <item>300000</item>
+        <item>600000</item>
+        <item>1800000</item>
+        <item>3600000</item>
+    </string-array>
+
+    <!-- Settings -->
+    <string name="settings">設定</string>
+    <string name="settings_enterprise">エンタープライズサブスクリプションの設定</string>
+    <string name="settings_privatefolder_summary">データ保護を設定すると、ダウンロードしたすべてのコンテンツが EisenVault アプリでしか読み取ることができなくなります。 (エンタープライズサブスクリプションのお客様のみ)</string>
+    <string name="settings_privatefolder_title">データ保護</string>
+    <string name="settings_links">リンク</string>
+    <string name="settings_links_website">EisenVault</string>
+    <string name="settings_links_website_summary">EisenVault の公式 Web サイトにアクセス</string>
+    <string name="settings_links_website_url">http://www.alfresco.com/products/mobile</string>
+    <string name="settings_rating">レビューを書く</string>
+    <string name="settings_rating_summary">Google Play で EisenVault Mobile の評価を書きます</string>
+    <string name="settings_rating_packagename">org.teisen.mobile.android.application</string>
+    <string name="settings_rating_url">market://details?id=org.teisen.mobile.android.application</string>
+    <string name="settings_links_facebook">Facebook で EisenVault に「いいね!」をつける</string>
+    <string name="settings_links_facebook_summary">Facebook で「いいね!」をつけます</string>
+    <string name="settings_links_facebook_url">http://www.facebook.com/alfrescosoftware</string>
+    <string name="settings_favorite">お気に入り</string>
+    <string name="settings_synced_content">同期されているコンテンツ</string>
+    <string name="settings_favorite_sync">同期の有効化</string>
+    <string name="settings_favorite_sync_summary">\"%s\" の同期を有効にします</string>
+    <string name="settings_favorite_sync_data">データ使用量</string>
+    <string name="settings_favorite_sync_data_all">同期に携帯電話のデータを使用します。</string>
+    <string name="settings_custom_menu">カスタマイズ</string>
+    <string name="settings_custom_menu_summary">メニューに表示するタブを選択してください。</string>
+    <string name="settings_custom_menu_manage">メニュー</string>
+    <string name="settings_custom_menu_disable">EisenVault 管理者がこの機能を無効に設定しています。</string>
+    <string name="settings.feedback">フィードバック</string>
+    <string name="settings.feedback.diagnostic">診断データの送信</string>
+    <string name="settings.feedback.diagnostic.summary">弊社は、EisenVault Mobile の改善に役立てるために技術的な診断データを匿名で収集しています。データの提供を希望されない場合は、チェックマークを外してください。</string>
+    <string name="settings.feedback.email">フィードバックの送信</string>
+
+    <!-- Multi Selection -->
+    <plurals name="selected_document">
+        <item quantity="zero">ファイルがありません</item>
+        <item quantity="one">1 個のファイル</item>
+        <item quantity="other">%1$s 個のファイル</item>
+    </plurals>
+    <plurals name="selected_folders">
+        <item quantity="zero">フォルダがありません</item>
+        <item quantity="one">1 個のフォルダ</item>
+        <item quantity="other">%1$s 個のフォルダ</item>
+    </plurals>
+    <plurals name="selected_search">
+        <item quantity="zero">クエリがありません</item>
+        <item quantity="one">1 個のクエリ</item>
+        <item quantity="other">%1$s 個のクエリ</item>
+    </plurals>
+
+    <!-- Favorites -->
+    <string name="menu_favorites_folder">お気に入りのフォルダ</string>
+    <string name="menu_favorites">お気に入り</string>
+    <string name="sync_mark">同期する</string>
+    <string name="synced_content">同期されているコンテンツ</string>
+    <string name="empty_favorites">お気に入りはありません</string>
+    <string name="favorites_document">お気に入り</string>
+    <string name="error_retrieve_favorite">このコンテンツのお気に入り情報を取得できませんでした。</string>
+    <string name="favorites_activate">\"%s\" のコンテンツを同期します</string>
+    <string name="favorites_activate_description">お気に入りのコンテンツを自動的にこのデバイスと同期させますか?</string>
+    <string name="favorites_deactivate">同期の無効化</string>
+    <string name="favorites_deactivate_description"><![CDATA[<p>同期を無効にしますか?</p> 無効にすると、同期されているすべてのコンテンツがデバイスから削除されます。]]></string>
+    <string name="sync_error_title">同期エラー</string>
+    <string name="sync_error_node_unfavorited"><![CDATA[<p>編集を開始したため、<b>%s</b> の同期が解除されました。 <br/> 編集済みのバージョンをサーバーと<b>同期</b>させるか、\"ダウンロード\" フォルダに<b>保存</b>してください。 </p>]]></string>
+    <string name="sync_error_node_deleted"><![CDATA[<p> <b>%s</b> はサーバーから削除されましたが、\"ダウンロード\" フォルダにコピーが保存されています。</p>]]></string>
+    <string name="sync_error_no_permission"><![CDATA[<p> <b>%s</b> の編集済みバージョンをアップロードするのに必要な権限がありません。 \"ダウンロード\" フォルダに<b>保存</b>するか、サーバーにあるバージョンで<b>上書き</b>して編集済みバージョンを破棄することもできます。]]></string>
+    <string name="sync_error_node_local_modification">同期エラー</string>
+    <string name="sync_action">同期</string>
+    <string name="sync_override_action">上書き</string>
+    <string name="sync_save_action">保存</string>
+    <string name="sync_resolve_conflict">競合の解決</string>
+    <string name="sync_complete">同期が完了しました</string>
+    <string name="sync_in_progress">同期しています&#8230;</string>
+    <string name="upload_await">アップロードを待っています&#8230;</string>
+    <string name="download_await">ダウンロードを待っています&#8230;</string>
+
+    <!-- Sync -->
+    <string name="sync_title">同期されているコンテンツ</string>
+    <string name="sync">同期</string>
+    <string name="unsync">同期を解除</string>
+    <string name="sync_favorites">お気に入り</string>
+    <string name="sync_empty_title">ファイルの同期を維持</string>
+    <string name="sync_empty_description">同期しているファイルをオフラインのときに表示して編集できます。</string>
+
+    <string name="sync_info_one_title">同期機能が新しくなりました!</string>
+    <string name="sync_info_one_first_text">これからは異なる複数のデバイス上のファイルを同期できます。 操作は簡単! ファイルを選んで同期するだけです。</string>
+    <string name="sync_info_one_second_text">同期しているファイルをオフラインのときに表示して編集しておくと、 オンラインに戻ったときに、自動的に EisenVault と同期されます。</string>
+    <string name="sync_info_two_title">すでにお気に入りに登録済みのファイルはどうなりますか?</string>
+    <string name="sync_info_two_first_text">ご心配いりません。それらのファイルの同期もすべて維持されます。</string>
+    <string name="sync_info_two_second_text">今後お気に入りに登録するファイルは [お気に入り] タブに表示されますが、オフラインでこれらのファイルにアクセスする場合は、ファイルを同期する必要があります。</string>
+    <string name="sync_info_third_title">同期されているファイルはどこで見れますか?</string>
+    <string name="sync_info_third_first_text">同期されているファイルはすべて新しい [同期されているコンテンツ] ビューに表示されます。</string>
+    <string name="sync_info_third_second_text">同期されているコンテンツ</string>
+    <string name="sync_info_validation">了解</string>
+    <string name="sync_info_more_information">さらに詳しく</string>
+    <string name="sync_info_skip">スキップ</string>
+    <string name="sync_info_next">次へ</string>
+
+
+    <plurals name="sync_complete_description">
+        <item quantity="zero">同期されたコンテンツはありません</item>
+        <item quantity="one">1 個のファイルが同期されました</item>
+        <item quantity="other">%1$s 個のファイルが同期されました</item>
+    </plurals>
+    <plurals name="download_complete_description">
+        <item quantity="zero">ダウンロードされたコンテンツはありません</item>
+        <item quantity="one">オフラインで使用できるファイルが 1 個あります</item>
+        <item quantity="other">オフラインで使用できるファイルが %1$s 個あります</item>
+    </plurals>
+    <plurals name="upload_complete_description">
+        <item quantity="zero">アップロードされたコンテンツはありません</item>
+        <item quantity="one">1 個のアイテムがアップロードされました。</item>
+        <item quantity="other">%1$s 個のアイテムがアップロードされました。</item>
+    </plurals>
+    <plurals name="update_complete_description">
+        <item quantity="zero">更新されたコンテンツはありません。</item>
+        <item quantity="one">1 個のファイルが更新されました。</item>
+        <item quantity="other">%1$s 個のファイルが更新されました。</item>
+    </plurals>
+    <plurals name="batch_failed">
+        <item quantity="zero">失敗した転送はありません。</item>
+        <item quantity="one">1 個の転送に失敗しました。</item>
+        <item quantity="other">%1$s 個の転送に失敗しました。</item>
+    </plurals>
+    <plurals name="batch_in_progress">
+        <item quantity="zero">進行中の転送はありません。</item>
+        <item quantity="one">1 個の転送が進行中です。</item>
+        <item quantity="other">%1$s 個の転送が進行中です。</item>
+    </plurals>
+    <plurals name="download_in_progress">
+        <item quantity="zero">進行中のダウンロードはありません。</item>
+        <item quantity="one">1 個のダウンロードが進行中です。</item>
+        <item quantity="other">%1$s 個のダウンロードが進行中です。</item>
+    </plurals>
+
+    <string name="sync_warning">同期の警告</string>
+    <string name="sync_error">同期エラー</string>
+    <string name="sync_warning_mobile_data"><![CDATA[<p>通信事業者の接続を経由して <b>%s</b> を同期しようとしています。</p> 続行しますか?]]></string>
+    <string name="sync_error_storage"><![CDATA[<p> <b>%1$s</b> を同期しようとしていますが、容量が %2$s しかありません。</p> デバイスの空き容量を増やすか、一部のコンテンツのお気に入りを解除してください。]]></string>
+    <string name="sync_warning_storage"><![CDATA[<p>通信事業者の接続を経由して <b>%s</b> を同期しようとしています。</p> 続行しますか?]]></string>
+    <string name="sync_document_not_available">この文書はデバイスにありません。</string>
+
+    <!-- Handling duplicate name -->
+    <string name="error_duplicate_title">名前が重複しています</string>
+    <string name="error_duplicate_description"><![CDATA[<p>既に同じ名前のダウンロード済みファイルがあります。</p> 既存のファイルを上書きしますか?]]></string>
+
+    <!-- Quick Action Folder -->
+    <string name="action_view_properties">プロパティの表示</string>
+    <string name="action_edit_properties">プロパティの編集</string>
+    <string name="like_in_progress">[いいね !] をつけています</string>
+    <string name="like_completed">[いいね!] が完了しました</string>
+    <string name="like_complete">[いいね!] 完了</string>
+    <string name="favorite">お気に入り</string>
+    <string name="unfavorite">お気に入りの解除</string>
+
+    <!-- Operations Status -->
+    <string name="status_pending">保留</string>
+    <string name="status_running">実行中</string>
+    <string name="status_paused">一時停止</string>
+    <string name="status_successful">成功</string>
+    <string name="status_failed">失敗</string>
+    <string name="status_cancelled">キャンセル済み</string>
+    <string name="session_loaded">セッション準備完了</string>
+
+    <!-- Operations Type -->
+    <string name="notifications">通知</string>
+    <string name="operation_default">通知</string>
+    <string name="DownloadRequest">ダウンロード</string>
+    <string name="CreateDocumentRequest">コンテンツの作成</string>
+    <string name="UpdateContentRequest">コンテンツの更新</string>
+    <string name="DeleteNodeRequest">削除</string>
+    <string name="LikeNodeRequest">いいね!</string>
+    <string name="FavoriteNodeRequest">お気に入り</string>
+    <string name="CreateFolderRequest">フォルダの作成</string>
+    <string name="LoadSessionRequest">セッションの読み込み</string>
+
+    <!-- Multi selection -->
+    <string name="empty">なし</string>
+    <string name="operations_empty">オペレーションなし</string>
+    <string name="select_all">すべて選択</string>
+    <string name="cancel_all">すべてキャンセル</string>
+    <string name="dismiss_all">リストをクリア</string>
+
+    <!-- Creation Folder -->
+    <string name="create_folder_in_progress">フォルダを作成しています</string>
+    <string name="textfile_populate_failed">内蔵エディタにテキストを読み込めませんでした</string>
+
+    <!-- FILE EXPLORER Menu -->
+    <string name="shortcut_alfresco_downloads">ダウンロード</string>
+    <string name="shortcut_library">ライブラリ</string>
+    <string name="shortcut_library_images">画像</string>
+    <string name="shortcut_library_videos">動画</string>
+    <string name="shortcut_library_audios">音楽</string>
+    <string name="shortcut_library_office">Office</string>
+    <string name="shortcut_local">デバイス上のショートカット</string>
+    <string name="shortcut_local_downloads">デバイス上のダウンロードコンテンツ</string>
+    <string name="shortcut_local_sdcard">SD カード</string>
+    <string name="shortcut_thirdparty_app">アプリケーション</string>
+    <string name="shortcut_thirdparty_applications">他社製アプリケーション</string>
+
+    <!-- FILE Editor Menu -->
+    <string name="file_editor_name">EisenVault Text Editor</string>
+    <string name="file_editor_error_open">このファイルを開けません。</string>
+    <string name="file_editor_error_too_large">このファイルは、EisenVault Text Editor で開けるサイズを超えています。</string>
+    <string name="file_editor_error_speech">このデバイスではテキストの読み上げ機能は使用できません。</string>
+    <string name="file_editor_save_request">このファイルは変更されています。</string>
+    <string name="file_editor_save_description"><![CDATA[保存せずに終了しますか? <br/> このまま終了すると、保存されていない変更は失われます。]]></string>
+    <string name="file_editor_save">保存</string>
+    <string name="file_editor_discard">破棄</string>
+    <string name="file_editor_save_confirmation">ファイルは保存されています。</string>
+    <string name="file_editor_encoding">符号化</string>
+    <string name="file_editor_text_size">テキストサイズ</string>
+    <string name="file_editor_speech_to_text">音声入力</string>
+
+    <!-- Simple -->
+    <string name="yes">はい</string>
+    <string name="no">いいえ</string>
+
+    <!-- People -->
+    <string name="my_profile">あなたのプロフィール</string>
+    <string name="user_profile">ユーザープロフィール</string>
+    <string name="work_at">%1$s/%2$s</string>
+    <string name="jobTitle">役職名</string>
+    <string name="location">場所</string>
+    <string name="summary">概要</string>
+    <string name="contactInformation">連絡先</string>
+    <string name="email">E メール</string>
+    <string name="telephone">電話</string>
+    <string name="mobile">携帯電話</string>
+    <string name="skypeId">Skype</string>
+    <string name="instantMessagingId">IM</string>
+    <string name="instantMessaging">インスタントメッセージング</string>
+    <string name="googleId">Google ユーザー名</string>
+    <string name="company">会社</string>
+    <string name="companyDetails">勤務先</string>
+    <string name="companyName">名前</string>
+    <string name="companyAdress">住所</string>
+    <string name="companyPostCode">郵便番号</string>
+    <string name="companyTelephone">電話</string>
+    <string name="companyFax">ファックス</string>
+    <string name="companyEmail">E メール</string>
+    <string name="call">電話</string>
+    <string name="skype">Skype</string>
+    <string name="start_chat">チャットの開始</string>
+    <string name="start_call">通話の開始</string>
+    <string name="start_video_call">ビデオ通話の開始</string>
+    <string name="search_person_hint">名前またはユーザー名で検索します</string>
+    <string name="contact_add">連絡先の追加</string>
+
+    <!-- MEMBERS -->
+    <string name="members">メンバーのリスト</string>
+    <string name="users">ユーザーのリスト</string>
+    <string name="members_of">%s のメンバー</string>
+
+    <!-- PERSON SEARCH -->
+    <string name="person_not_found">ユーザーが見つかりません</string>
+    <string name="person_search">検索</string>
+
+    <!-- Activities -->
+    <string name="activity_profile">%s のプロフィール</string>
+
+    <!-- Workflow -->
+    <string name="empty_tasks">タスクなし</string>
+    <string name="empty_items">添付ファイルなし</string>
+    <string name="task_items">添付ファイル</string>
+    <string name="workflow_start">タスクの作成</string>
+    <string name="task_actions">応答</string>
+    <string name="tasks">タスク</string>
+    <string name="task_workflow">プロセス</string>
+
+    <!-- Workflow FILTERS -->
+    <string name="tasks_status">タスクのステータス</string>
+    <string name="tasks_active">アクティブ</string>
+    <string name="tasks_completed">完了済み</string>
+    <string name="tasks_due">期限</string>
+    <string name="tasks_due_today">今日</string>
+    <string name="tasks_due_tomorrow">明日</string>
+    <string name="tasks_due_week">7 日以内</string>
+    <string name="tasks_due_over">期限切れ</string>
+    <string name="tasks_due_no_date">日付なし</string>
+    <string name="tasks_priority">優先度</string>
+    <string name="tasks_priority_low">低</string>
+    <string name="tasks_priority_medium">中</string>
+    <string name="tasks_priority_high">高</string>
+    <string name="tasks_assignee">担当者</string>
+    <string name="tasks_assignee_me">あなた</string>
+    <string name="tasks_assignee_all">すべて</string>
+    <string name="tasks_assignee_unassigned">担当者なし</string>
+
+    <!-- Tasks -->
+    <string name="task_filter_view">タスクの表示</string>
+    <string name="validate">有効</string>
+    <string name="workflow_priority_low">優先度: 低</string>
+    <string name="workflow_priority_medium">優先度: 中</string>
+    <string name="workflow_priority_high">優先度: 高</string>
+    <string name="task_user_approved"><![CDATA[%s <b>がコンテンツを承認しました</b>]]></string>
+    <string name="task_user_rejected"><![CDATA[%s <b>がコンテンツを却下しました</b>]]></string>
+    <string name="task_user_commented">コメントが追加されています: </string>
+    <string name="task_user_completed"><![CDATA[%s <b>がこのタスクを完了しました</b>]]></string>
+    <string name="task_user_not_completed"><![CDATA[%s <b>はまだこのタスクを完了していません</b>]]></string>
+    <string name="task_approve">承認</string>
+    <string name="task_reject">却下</string>
+    <string name="task_response">応答</string>
+    <string name="done">完了</string>
+    <string name="task_completing">タスクの完了</string>
+    <string name="task_reassign">再割り当て</string>
+    <string name="task_reassign_long">このタスクを再割り当てする&#8230;</string>
+    <string name="task_claim">要求</string>
+    <string name="task_unclaim">プールに戻す</string>
+    <string name="task_priority">優先度</string>
+    <string name="task_type">タスクの種類</string>
+    <string name="task_initiator">タスクの開始者</string>
+    <string name="task_dueat">締切日</string>
+    <string name="tasks_history">タスクの履歴</string>
+
+    <!-- Tasks Filters -->
+    <string name="task_filter_active">アクティブなタスク</string>
+    <string name="task_filter_initiator">あなたが開始したタスク</string>
+    <string name="task_filter_completed">完了済みタスク</string>
+    <string name="task_filter_high_priority">優先度高のタスク</string>
+    <string name="task_filter_due_today">本日が期限のタスク</string>
+    <string name="task_filter_overdue">期限が過ぎたタスク</string>
+    <string name="task_filter_assigned_me">あなたに割り当てられたタスク</string>
+    <string name="task_filter_custom">あなたのフィルタ&#8230;</string>
+
+    <!-- Process Start -->
+    <string name="process_start_review">レビューの開始</string>
+    <string name="process_choose_definition">タスクの種類の選択</string>
+    <string name="process_create_task">タスクの作成</string>
+    <string name="process_choose_attachments">添付ファイルの選択</string>
+    <string name="process_start_title">プロセスの開始</string>
+    <string name="process_title">タイトル</string>
+    <string name="process_title_hint">新しいタスクタイトル (必須)</string>
+    <string name="process_due_on">締切日</string>
+    <string name="process_assignees">担当者</string>
+    <string name="process_diagram">プロセス図</string>
+    <string name="task_review_document">%s をレビューしてください</string>
+    <string name="task_review_documents">このコンテンツをレビューしてください</string>
+    <string name="task_assignees_plurals">{0,choice,0#担当者なし|1#1 名の担当者|1&lt;{0}名の担当者}</string>
+    <string name="task_assignees">担当者</string>
+    <string name="task_assignees_selection">担当者の選択&#8230;</string>
+    <string name="process_approvers_plurals">{0,choice,0#承認者なし|1#1/1 名の承認者|1&lt;%s/{0}名の承認者}</string>
+    <string name="task_attachments_plurals">{0,choice,0#添付ファイルなし|1#1 個の添付ファイル|1&lt;{0} 個の添付ファイル}</string>
+    <string name="task_attachments_selection">添付ファイルの選択&#8230;</string>
+    <string name="task_attachments">添付ファイル</string>
+    <string name="process_no_description">(メッセージなし)</string>
+
+    <string name="process_attachments">添付ファイル</string>
+    <string name="process_no_attachments">添付されているコンテンツはありません</string>
+    <string name="process_priority">優先度</string>
+    <string name="process_notification">E メール通知</string>
+    <string name="process_approvers">承認者</string>
+    <string name="process_no_approvers">承認者なし</string>
+    <string name="process_starting">プロセスの開始</string>
+    <string name="task_create">タスクの作成</string>
+    <string name="task_todo">タスクの割り当て</string>
+    <string name="task_todo_description">タスクを担当者に割り当てます</string>
+    <string name="task_review_approve">レビューと承認</string>
+    <string name="task_review_approve_description">タスクをコンテンツのレビューと承認を行う担当者に割り当てます。</string>
+    <string name="task_delegate_in_progress">再割り当てをしています&#8230;</string>
+    <string name="task_delegate_complete">再割り当てが完了しました</string>
+    <string name="picker_assignees">担当者の選択</string>
+    <string name="picker_due_date">締切日の選択</string>
+    <string name="picker_attachments">添付ファイルの選択</string>
+    <string name="action_remove_approvers">承認者を 1 名削除</string>
+    <string name="action_add_approvers">承認者を 1 名追加</string>
+
+
+    <!-- PROCESS NAME -->
+    <string name="process_adhoc">アドホックワークフロー</string>
+    <string name="process_parallel_review">並列のレビューと承認</string>
+    <string name="process_review">レビューと承認</string>
+    <string name="process_pooled_review">プールされたレビューと承認</string>
+
+    <!-- AGGREGATOR SEARCH -->
+    <string name="search">検索</string>
+    <string name="search_person">ユーザー</string>
+    <string name="search_documents">ファイル</string>
+    <string name="search_folders">フォルダ</string>
+    <string name="search_site">サイト</string>
+    <string name="search_advanced">詳細検索</string>
+
+    <!-- DOCUMENT PICKER -->
+    <string name="picker_document_title">添付ファイルの選択</string>
+    <string name="picker_assign_person">{0,choice,0#割り当て|1#1 名に割り当て|1&lt;{0} 名に割り当て}</string>
+    <string name="picker_attach_document">{0,choice,0#添付|1#1 個のファイルを添付|1&lt; {0} 個 のファイルを添付}</string>
+
+    <!-- DISLAY VIEWS ITEMS -->
+    <string name="display_gallery">ギャラリーの表示</string>
+
+    <!-- Metadata RESTRICTABLE -->
+    <string name="metadata_aspect_restrictable">制限可能</string>
+    <string name="metadata_prop_offline_expires_after">オフラインでの残り使用時間</string>
+
+    <!-- Advanced Search -->
+    <string name="search_title">検索: %s</string>
+    <string name="clear">消去</string>
+    <string name="metadata_type">タイプ</string>
+    <string name="metadata_modified_by">変更者</string>
+    <string name="modified_by">変更者</string>
+    <string name="metadata_modification_date">最終変更日</string>
+    <string name="metadata_modification_date_from">開始日</string>
+    <string name="metadata_modification_date_to">終了日</string>
+    <string name="search_name">氏名またはユーザー名</string>
+    <string name="mimetype_unknown">不明</string>
+    <string name="mimetype_documents">文書</string>
+    <string name="mimetype_presentations">プレゼンテーション</string>
+    <string name="mimetype_spreadsheets">スプレッドシート</string>
+    <string name="mimetype_images">画像</string>
+    <string name="mimetype_videos">動画</string>
+    <string name="mimetype_music">音楽</string>
+    <string name="mimetype_text">テキスト</string>
+    <string name="error_search_fields_empty">少なくとも 1 つのフィールドに入力してください</string>
+    <string name="picker_user">担当者を選択してください</string>
+    <string name="picker_date_from">開始日を選択してください</string>
+    <string name="picker_date_to">終了日を選択してください</string>
+
+
+    <!-- Storage Access Framework -->
+    <string name="menu_browse_sync_content_folder">同期されているコンテンツ</string>
+    <string name="menu_browse_favorites_folder">[お気に入り] フォルダ</string>
+    <string name="account_alfresco">EisenVault</string>
+    <string name="account_alfresco_cloud">EisenVault in the Cloud</string>
+    <string name="account_alfresco_onpremise">EisenVault サーバー</string>
+
+
+    <!-- Accessibility -->
+    <string name="mime_folder">フォルダ</string>
+    <string name="mime_document">文書</string>
+    <string name="more_options_folder">フォルダ %s のその他のオプション</string>
+    <string name="more_options_file">ファイル %s のその他のオプション</string>
+    <string name="more_options_favorite">%s のその他のオプション</string>
+    <string name="mime_site">サイト</string>
+    <string name="more_options_site">サイト %s のその他のオプション</string>
+    <string name="navigation_drawer_description">EisenVault: Navigation Drawer を開きます</string>
+    <string name="metadata_modified">変更日 </string>
+    <string name="metadata_created_by">作成者: %s</string>
+    <string name="metadata_size">サイズ </string>
+    <string name="contact_card">%s の連絡先カードを開きます </string>
+    <string name="add_comment">コメントを送信します</string>
+    <string name="advanced_search_hint">詳細検索ボタン</string>
+    <string name="add_menu">このフォルダに追加</string>
+
+    <string name="multi_selection_enable">複数選択</string>
+    <string name="create_content_type">タイプ</string>
+
+    <!-- CUSTOM FORMS -->
+    <string name="picker_selected_value">%s を選択しました</string>
+    <string name="picker_select_value">%s を追加します&#8230;</string>
+    <string name="picker_multi_value_selected">{0,choice,0#No %2$s|1#1 %2$s|1&lt;%1$s %2$s}</string>
+
+    <!-- SHORTCUT & ACTIONS -->
+    <string name="select_folder">選択</string>
+    <string name="shortcut_actions_title">EisenVault - 作成</string>
+    <string name="shortcut_title">EisenVault - ショートカット</string>
+    <string name="shortcut_create">ショートカットの作成...</string>
+    <string name="shortcut_action_create">アクションの定義...</string>
+    <string name="action_associated">関連付けられているアクション</string>
+    <string name="action_photo">写真の撮影</string>
+    <string name="action_text">テキストの入力</string>
+    <string name="action_speech2text">音声入力</string>
+
+    <string name="mdm_managed">管理者によって管理されています</string>
+    <string name="mdm_loading_configuration">設定を読み込んでいます...</string>
+    <string name="sign_in">サインイン</string>
+    <string name="error_mdm_loading_configuration"><![CDATA[<p><b>アプリケーションの設定が間違っているようです。</b><br/>問題が解決しない場合は、管理者に問い合わせてください。</p> <br/> エラー : %s]]></string>
+    <string name="discardbutton">破棄</string>
+    <string name="filename_error_character">ファイル名が無効です</string>
+    <string name="my_tasks">あなたのタスク</string>
+    <string name="waiting_operations">お待ちください</string>
+    <string name="shortcut_alfresco">EisenVault</string>
+    <string name="error_offline"><![CDATA[<p><b>オフラインのため EisenVault Mobile のヘルプにアクセスできません。</b><br/></p>オンラインに戻ってから、操作をやり直してください。]]></string>
+    <string name="feature_disable">この機能は使用できないか、お使いのデバイスで無効に設定されています。</string>
+
+    <!-- ANDROID FOR WORK -->
+    <!-- AlfrescoUserName restriction -->
+    <string name="title_alfresco_username">ユーザー名</string>
+    <string name="description_alfresco_username">EisenVault サーバーに接続するときに使用するユーザー名</string>
+    <!-- AlfrescoRepositoryURL restriction -->
+    <string name="title_alfresco_repository_url">EisenVault リポジトリの URL</string>
+    <string name="description_alfresco_repository_url">EisenVault サーバーの接続先</string>
+    <!-- AlfrescoShareURL restriction -->
+    <string name="title_alfresco_share_url">EisenVault Share の URL</string>
+    <string name="description_alfresco_share_url">EisenVault Share サーバーの接続先</string>
+    <!-- AlfrescoDisplayName restriction -->
+    <string name="title_alfresco_display_name">アカウントの表示名</string>
+    <string name="description_alfresco_display_name">リポジトリに接続しているサーバーの名前。</string>
+    <string name="default_alfresco_display_name">EisenVault サーバー</string>
+
+
+    <!-- Empty -->
+    <string name="nodebrowser_empty_ro_title">このフォルダは空です</string>
+    <string name="nodebrowser_empty_rw_title">@string/nodebrowser_empty_ro_title</string>
+    <string name="nodebrowser_empty_rw_description">このフォルダを使ったり、ファイルを追加できます。</string>
+    <string name="favorites_empty_title">お気に入りが見つかりません</string>
+    <string name="favorites_empty_description">よく使うファイルやフォルダをお気に入りに登録できます。</string>
+    <string name="sites_my_empty_title">参加しているサイトがありません</string>
+    <string name="sites_my_empty_description">[サイトの検索] で、参加できるサイトを見つけてください。</string>
+    <string name="sites_favorites_empty_title">お気に入りが見つかりません</string>
+    <string name="sites_favorites_empty_description">よく使うサイトをお気に入りに登録できます。</string>
+    <string name="sites_search_empty_title">サイトが見つかりません</string>
+    <string name="sites_search_empty_description">別のキーワードで検索してみてください。</string>
+    <string name="tasks_list_empty_title">あなたのタスクは現在ありません</string>
+    <string name="tasks_list_empty_description">自分用のタスクを作成するか、タスクを誰かに割り当ててください。</string>
+    <string name="activities_list_empty_title">表示するアクティビティがありません。</string>
+    <string name="activities_list_empty_description">EisenVault のサイトに参加すると、同僚のアクティビティが表示されます。</string>
+    <string name="node_search_empty_title">条件に一致するものが見つかりません</string>
+    <string name="node_search_empty_description">別のキーワードで検索してみてください。</string>
+    <string name="people_search_empty_title">ユーザーが見つかりません</string>
+    <string name="people_search_empty_description">別のキーワードで検索してみてください。</string>
+
+
+    <string name="empty_site">サイトがありません</string>
+    <string name="empty_version">バージョン履歴がありません</string>
+    <string name="empty_session">セッションがありません</string>
+    <string name="empty_actvity">アクティビティが見つかりません</string>
+    <string name="empty_tag">タグが見つかりません</string>
+    <string name="empty_comment">コメントが見つかりません</string>
+    <string name="empty_search">ファイルが見つかりません</string>
+    <string name="action_sign_in_short">サインイン</string>
+    <string name="node.details.file.not.found">ファイルが見つかりません</string>
+    <string name="node.browser.folder.not.found">フォルダが見つかりません</string>
+    <string name="user.details.user.not.found">ユーザーが見つかりません</string>
+    <string name="public.url.wrong.format">このリンクは認識されませんでした。EisenVault 管理者に連絡してください</string>
+    <string name="public.url.tasks.missing.filter">フィルタ情報が見つかりません。EisenVault 管理者に連絡してください</string>
+    <string name="public.url.file.missing.id">ID 情報が見つかりません。EisenVault 管理者に連絡してください</string>
+    <string name="public.url.noderef.format">NodeRef 情報が間違っている可能性があります。EisenVault 管理者に連絡してください</string>
+
+
+    <!-- ACCOUNTS SELECTION -->
+    <string name="accounts.title.select">アカウントを選択してください</string>
+    <string name="accounts.not.found">アカウントが見つかりません。アカウントを追加してください。</string>
+
+
+    <!-- DATA PROTECTION -->
+    <string name="general_login_data_protection_title">データ保護が使用可能です</string>
+    <string name="general_login_data_protection_description">この機能を有効にすると、各アカウントでダウンロードしたすべての EisenVault コンテンツが暗号化され、EisenVault 以外のアプリでは読み取ることができなくなります。</string>
+
+    <!-- ERRORS -->
+    <string name="error_invalid_email">この E メールアドレスは無効です</string>
+    <string name="error_invalid_password">このパスワードは短かすぎます</string>
+    <string name="error_incorrect_password">このパスワードは正しくありません</string>
+    <string name="error_field_required">このフィールドには必ず入力する必要があります</string>
+    <string name="error_invalid_url">このホスト名は無効です</string>
+
+
+    <!-- CONFIG VALUES -->
+    <string name="config_view_config_editor">Displays Menu Configuration Editor.</string>
+    <string name="config_view_activities">Displays user\'s activities.</string>
+    <string name="config_view_people">Displays a list of users.</string>
+    <string name="config_view_person_profile">Displays person profile details.</string>
+    <string name="config_view_local">Displays a list of most important local folder available inside the device.</string>
+    <string name="config_view_local_files">Displays files local to the client.</string>
+    <string name="config_view_search">Displays a search view.</string>
+    <string name="config_view_search_advanced">Displays an advanced search view.</string>
+    <string name="config_view_site_browser">Displays a sites view.</string>
+    <string name="config_view_sites">Displays a list of sites.</string>
+    <string name="config_view_document_details">Displays the details of a repository document.</string>
+    <string name="config_view_folder_details">Displays the details of a repository folder or document.</string>
+    <string name="config_view_repository">Displays a folder from the repository.</string>
+    <string name="config_view_repository_search">Displays a list of nodes based on a query.</string>
+    <string name="config_view_tasks">Displays a list of tasks.</string>
+    <string name="config_view_favorites">Displays list of favorite files and folders.</string>
+    <string name="config_view_sync">Displays list of synced content.</string>
+
+    <string name="config_view_activities_username">Displays activities stream for a specific user.</string>
+    <string name="config_view_activities_siteshortname">Displays activities stream for a specific site.</string>
+    <string name="config_view_people_keywords">Displays a search view for users with the matching keywords.</string>
+    <string name="config_view_people_siteshortname">Displays list of members for a specific site.</string>
+    <string name="config_view_people_path">Absolute path to the specified folder.</string>
+    <string name="config_view_people_shortcut">Display Up path selector.</string>
+    <string name="config_view_person_profile_username">Displays the profile for the specified username.</string>
+    <string name="config_view_advanced_search_type">Values: person|document|folder.</string>
+    <string name="config_view_sites_show">Values: favorites|my|all|finder.</string>
+    <string name="config_view_sites_keywords">keywords to search</string>
+    <string name="config_view_doc_details_path">Absolute path to the specified document</string>
+    <string name="config_view_doc_details_noderef">NodeRef associated to a document</string>
+    <string name="config_view_folder_details_path">Absolute path to the specified folder</string>
+    <string name="config_view_folder_details_noderef">NodeRef associated to a folder</string>
+    <string name="config_view_repository_path">Displays a folder defined by its absolute path</string>
+    <string name="config_view_repository_noderef">Displays a folder retrieved by its nodeRef</string>
+    <string name="config_view_repository_siteShortName">Displays the document library folder associated to the specified site</string>
+    <string name="config_view_repository_folderTypeId">Displays the system folder shared|userhome</string>
+    <string name="config_view_repository_search_keywords">keywords to search</string>
+    <string name="config_view_repository_search_isExact">Requires : keywords</string>
+    <string name="config_view_repository_search_fullText">Requires : keywords</string>
+    <string name="config_view_repository_search_searchFolderOnly">Requires : keywords</string>
+    <string name="config_view_repository_search_statement">CMIS query</string>
+
+    <!-- FORM -->
+    <!-- ################################################################################## -->
+    <string name="form_message_title">フォーム</string>
+    <string name="form_default_outcome_complete">完了</string>
+    <string name="form_default_outcome_start_process">プロセスの開始</string>
+    <string name="form_message_empty">(なし)</string>
+    <string name="form_error_message_required">%s は必須フィールドです</string>
+    <string name="form_message_validation">一部のフィールドは必須フィールドです。</string>
+    <string name="form_message_unsupported_field_summary">レンディションできません</string>
+    <string name="form_message_unsupported_field">モバイルデバイスがこのタイプの入力フィールドに対応していません</string>
+    <string name="form_message_unsupported_title">使用できないフォーム</string>
+    <string name="form_message_unsupported_description"><![CDATA[<p>このフォームには、現在モバイルデバイスで入力できない必須フィールドが含まれいています。</p>この作業は Web アプリで行ってください。]]></string>
+    <string name="form_message_link_error_title">リンクできません</string>
+    <string name="form_message_link_error"><![CDATA[<p>このコンテンツは、リンクできないソースに属しています。</p> 別のコンテンツを選択してください。]]></string>
+
+
+    <string name="open_in_alfresco_editor">EisenVault Text Editor で開く</string>
+
+
+</resources>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
+
+    <!-- Rendition Manager -->
+    <bool name="manager_isEnable_RenditionManager">true</bool>
+    <string name="manager_RenditionManager" translatable="false" tools:ignore="UnusedResources">org.alfresco.mobile.android.application.managers.RenditionManagerImpl</string>
+
+    <!-- Favorite Sync Manager -->
+    <bool name="manager_isEnable_SyncContentManager">true</bool>
+    <string name="manager_SyncContentManager" translatable="false" tools:ignore="UnusedResources">org.alfresco.mobile.android.application.managers.SyncContentManagerImpl</string>
+
+    <bool name="manager_isEnable_FavoritesManager">true</bool>
+    <string name="manager_FavoritesManager" translatable="false" tools:ignore="UnusedResources">org.alfresco.mobile.android.application.managers.FavoritesManagerImpl</string>
+
+    <!-- Storage Manager -->
+    <bool name="manager_isEnable_AlfrescoStorageManager">true</bool>
+    <string name="manager_AlfrescoStorageManager" translatable="false" tools:ignore="UnusedResources">org.alfresco.mobile.android.application.managers.StorageManagerImpl</string>
+
+    <!-- Data Protection Manager -->
+    <bool name="manager_isEnable_DataProtectionManager">true</bool>
+    <string name="manager_DataProtectionManager" translatable="false" tools:ignore="UnusedResources">org.alfresco.mobile.android.application.managers.DataProtectionManagerImpl</string>
+
+    <!-- Configuration Manager -->
+    <bool name="manager_isEnable_ConfigManager">true</bool>
+    <string name="manager_ConfigManager" translatable="false" tools:ignore="UnusedResources">org.alfresco.mobile.android.application.config.ConfigManager</string>
+
+    <!-- Notification Manager -->
+    <bool name="manager_isEnable_AlfrescoNotificationManager">true</bool>
+    <string name="manager_AlfrescoNotificationManager" translatable="false">org.alfresco.mobile.android.application.managers.NotificationManager</string>
+
+</resources>

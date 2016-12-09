@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- +++++++++++++++++++++++++++ -->
+    <!-- VALIDATION -->
+    <!-- +++++++++++++++++++++++++++ -->
+
+    <!-- Mandatory -->
+    <string name="validation_org_alfresco_client_validation_mandatory" translatable="false" tools:ignore="UnusedResources">org.alfresco.mobile.android.application.ui.form.validation.MandatoryValidationRule</string>
+
+    <!-- String Length -->
+    <string name="validation_org_alfresco_client_validation_stringLength" translatable="false" tools:ignore="UnusedResources">org.alfresco.mobile.android.application.ui.form.validation.StringLengthValidationRule</string>
+
+    <!-- Number Range -->
+    <string name="validation_org_alfresco_client_validation_numberRange" translatable="false" tools:ignore="UnusedResources">org.alfresco.mobile.android.application.ui.form.validation.NumberRangeValidationRule</string>
+
+    <!-- Filename -->
+    <string name="validation_org_alfresco_client_validation_nodeName" translatable="false" tools:ignore="UnusedResources">org.alfresco.mobile.android.application.ui.form.validation.FileNameValidationRule</string>
+
+    <!-- Pattern Regex -->
+    <string name="validation_org_alfresco_client_validation_regex" translatable="false" tools:ignore="UnusedResources">org.alfresco.mobile.android.application.ui.form.validation.RegexValidationRule</string>
+
+</resources>

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~  Copyright (C) 2005-2016 Alfresco Software Limited.
+  ~
+  ~  This file is part of Alfresco Mobile for Android.
+  ~
+  ~  Licensed under the Apache License, Version 2.0 (the "License");
+  ~  you may not use this file except in compliance with the License.
+  ~  You may obtain a copy of the License at
+  ~
+  ~     http://www.apache.org/licenses/LICENSE-2.0
+  ~
+  ~  Unless required by applicable law or agreed to in writing, software
+  ~  distributed under the License is distributed on an "AS IS" BASIS,
+  ~  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  ~  See the License for the specific language governing permissions and
+  ~  limitations under the License.
+  -->
+
+<resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="all">
+
+    <!-- +++++++++++++++++++++++++++++++++++++++++++++++++ -->
+    <!--  APPLICATION ID  -->
+    <!-- +++++++++++++++++++++++++++++++++++++++++++++++++ -->
+    <!-- Change this value to override the default configuration mechanism -->
+    <string name="configuration_application_key">org.alfresco.mobile.android.application</string>
+    
+    <!-- +++++++++++++++++++++++++++++++++++++++++++++++++ -->
+    <!--  LIST OF MANAGERS -->
+    <!-- +++++++++++++++++++++++++++++++++++++++++++++++++ -->
+    <!-- Samsung Manager -->
+    <bool name="manager_isEnable_SamsungManager">false</bool>
+    <string name="manager_SamsungManager">org.alfresco.mobile.android.application.extension.samsung.SamsungManagerImpl</string>
+
+    <!-- HockeyApp Manager -->
+    <bool name="manager_isEnable_HockeyAppManager">false</bool>
+    <string name="manager_HockeyAppManager">org.alfresco.mobile.android.application.extension.hockeyapp.HockeyAppManagerImpl</string>
+
+    <!-- Analytics Manager -->
+    <bool name="manager_isEnable_AnalyticsManager">false</bool>
+    <string name="manager_AnalyticsManager">org.alfresco.mobile.android.application.extension.analytics.GAnalyticsManagerImpl</string>
+
+    <!-- Rendition Manager -->
+    <bool name="manager_isEnable_RenditionManager">false</bool>
+    <string name="manager_RenditionManager">org.alfresco.mobile.android.commons.manager.RenditionManager</string>
+
+    <!-- Storage Manager -->
+    <bool name="manager_isEnable_AlfrescoStorageManager">false</bool>
+    <string name="manager_AlfrescoStorageManager">org.alfresco.mobile.android.persistence.io.AlfrescoStorageManager</string>
+
+    <!-- Favorite Sync Manager -->
+    <bool name="manager_isEnable_SyncContentManager">false</bool>
+    <string name="manager_SyncContentManager">org.alfresco.mobile.android.sync.SyncContentManager</string>
+
+    <bool name="manager_isEnable_FavoritesManager">false</bool>
+    <string name="manager_FavoritesManager">org.alfresco.mobile.android.platform.favorite.FavoritesManager</string>
+
+    <!-- Data Protection Manager -->
+    <bool name="manager_isEnable_DataProtectionManager">false</bool>
+    <string name="manager_DataProtectionManager">org.alfresco.mobile.android.manager.security.DataProtectionManager</string>
+
+    <!-- +++++++++++++++++++++++++++++++++++++++++++++++++ -->
+    <!--  ENABLE BY DEFAULT -->
+    <!-- +++++++++++++++++++++++++++++++++++++++++++++++++ -->
+    <!-- Account Manager -->
+    <bool name="manager_isEnable_AlfrescoAccountManager">true</bool>
+    <string name="manager_AlfrescoAccountManager">org.alfresco.mobile.android.platform.accounts.DefaultAccountManager</string>
+    
+    <!-- Session Manager -->
+    <bool name="manager_isEnable_SessionManager">true</bool>
+    <string name="manager_SessionManager">org.alfresco.mobile.android.platform.DefaultSessionManager</string>
+    
+    <!-- MimeType Manager -->
+    <bool name="manager_isEnable_MimeTypeManager">true</bool>
+    <string name="manager_MimeTypeManager">org.alfresco.mobile.android.platform.mimetype.DefaultMimeTypeManager</string>
+
+</resources>
